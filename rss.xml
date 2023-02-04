@@ -1,0 +1,1816 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://blog.dselegent.cf/rss.xsl"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <atom:link href="https://blog.dselegent.cf/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>博客演示</title>
+    <link>https://blog.dselegent.cf/</link>
+    <description>vuepress-theme-hope 的博客演示</description>
+    <language>zh-CN</language>
+    <pubDate>Sat, 04 Feb 2023 06:45:25 GMT</pubDate>
+    <lastBuildDate>Sat, 04 Feb 2023 06:45:25 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <copyright>Copyright by dselegent</copyright>
+    <image>
+      <title>博客演示</title>
+      <url>https://blog.dselegent.cf/logo.png</url>
+      <link>https://blog.dselegent.cf/</link>
+    </image>
+    <item>
+      <title>介绍页</title>
+      <link>https://blog.dselegent.cf/intro.html</link>
+      <guid>https://blog.dselegent.cf/intro.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">介绍页</source>
+      <description>介绍页 将你的个人介绍和档案放置在此处。</description>
+      <content:encoded><![CDATA[<h1> 介绍页</h1>
+<p>将你的个人介绍和档案放置在此处。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>幻灯片页</title>
+      <link>https://blog.dselegent.cf/slides.html</link>
+      <guid>https://blog.dselegent.cf/slides.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">幻灯片页</source>
+      <description>@slidestart 幻灯片演示 一个简单的幻灯片演示与各种小贴士。 作者 Mr.Hope. 请滚动鼠标滚轮进入下一页 标注幻灯片</description>
+      <content:encoded><![CDATA[<!-- markdownlint-disable MD024 MD033 MD051 -->
+<p>@slidestart</p>
+<!-- .slide: data-transition="slide" -->
+<h2> 幻灯片演示</h2>
+<!-- .element: class="r-fit-text" -->
+<p>一个简单的幻灯片演示与各种小贴士。</p>
+<!-- .element: class="r-fit-text" -->
+<blockquote>
+<p>作者 Mr.Hope. 请滚动鼠标滚轮进入下一页</p>
+</blockquote>
+<hr>
+<h2> 标注幻灯片</h2>
+<!-- .element: class="r-fit-text" -->
+<p><a href="#/1/1">👇</a></p>
+<p>--</p>
+<h2> 标注幻灯片</h2>
+<!-- .element: class="r-fit-text" -->
+<p>使用 <code>---</code> 标注水平幻灯片</p>
+<!-- .element: class="fragment fade-in" -->
+<p>在水平幻灯片中使用 <code>--</code> 分割垂直幻灯片</p>
+<!-- .element: class="fragment fade-in" -->
+<p>使用 <code>&lt;!-- .slide: ... --&gt;</code> 在幻灯片上添加属性</p>
+<!-- .element: class="fragment fade-in" -->
+<p>使用 <code>&lt;!-- .element: ... --&gt;</code> 在前一个 HTML 元素上添加属性</p>
+<!-- .element: class="fragment fade-in" -->
+<hr>
+<!-- .slide: data-transition="slide" data-auto-animate -->
+<h2> Markdown</h2>
+<!-- .element: class="r-fit-text" -->
+<p>你可以在幻灯片中使用 Markdown 语法的各种标记.</p>
+<!-- .element: class="r-fit-text" -->
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> Markdown</h2>
+<p>你可以在幻灯片中使用 Markdown 语法的各种标记.</p>
+<h3> 这是一个 H3</h3>
+<p>标题默认会自动转换为大写。</p>
+<p>这是一个有着 <strong>粗体</strong>, <em>斜体</em>, <s>删除线</s> 文字并包含 <a href="https://mrhope.site" target="_blank" rel="noopener noreferrer">一个链接</a> 的段落，并且它会自动换行。所以你无需担心它的长度。</p>
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> Markdown</h2>
+<p>你可以在幻灯片中使用 Markdown 语法的各种标记.</p>
+<p>列表默认为 <code>inline-block</code></p>
+<ul>
+<li>项目</li>
+<li>项目</li>
+<li>项目</li>
+</ul>
+<ol>
+<li>项目 1</li>
+<li>项目 2</li>
+<li>项目 3</li>
+</ol>
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> Markdown</h2>
+<p>你可以在幻灯片中使用 Markdown 语法的各种标记.</p>
+<p>在你启用 <code>highlight</code> 插件后，代码块会自动高亮。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> Markdown</h2>
+<p>你可以在幻灯片中使用 Markdown 语法的各种标记.</p>
+<p>在你启用 <code>math</code> 插件后，你也可以使用 TEX 格式使用数学公式。</p>
+<p>$$
+J(\theta_0,\theta_1) = \sum_{i=0}
+$$</p>
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> Markdown</h2>
+<p>你可以在幻灯片中使用 Markdown 语法的各种标记.</p>
+<p>⚠<strong>请注意</strong>: 表格和分割线，以及所有不在 Markdown 标准语法中的内容均不受支持。</p>
+<hr>
+<!-- .slide: data-transition="slide" data-auto-animate -->
+<h2> 布局</h2>
+<!-- .element: class="r-fit-text" -->
+<p>--</p>
+<!-- .slide: data-auto-animate  -->
+<h2> 布局</h2>
+<!-- .element: class="r-fit-text" -->
+<p>👆 <code>r-fit-text</code> class 会让文字在不超出幻灯片范围的情况下尽可能大。</p>
+<p>--</p>
+<!-- .slide: data-auto-animate  -->
+<h2> 布局</h2>
+<figure><img src="/logo.svg" alt="Logo" tabindex="0" loading="lazy"><figcaption>Logo</figcaption></figure>
+<!-- .element: class="r-stretch" -->
+<p>👆 <code>r-stretch</code> class 帮助你控制注入图片或视频的大小，使它们填充满幻灯片垂直方向上的剩余空间。</p>
+<p>--</p>
+<!-- .slide: data-auto-animate data-background-color="rgb(70, 70, 255)" -->
+<h2> 布局</h2>
+<h3> 背景</h3>
+<p>你可以通过向特定幻灯片添加 <code>data-background</code> 属性自定义幻灯片背景.</p>
+<hr>
+<!-- .slide: data-auto-animate -->
+<h2> 动画片段</h2>
+<!-- .element: class="r-fit-text" -->
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> 动画片段</h2>
+<!-- .element: class="r-fit-text" -->
+<p>动画片段用于高亮或显隐幻灯片中的元素。</p>
+<p>你需要在元素上添加 <code>fragment</code> 和动画 class。</p>
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> 动画片段</h2>
+<h3> 动画 class</h3>
+<ul>
+<li><code>fade-in</code></li>
+</ul>
+<!-- .element: class="fragment fade-in" -->
+<ul>
+<li><code>fade-out</code></li>
+</ul>
+<!-- .element: class="fragment fade-out" -->
+<ul>
+<li><code>fade-up</code></li>
+</ul>
+<!-- .element: class="fragment fade-up" -->
+<!-- list break -->
+<ul>
+<li><code>fade-down</code></li>
+</ul>
+<!-- .element: class="fragment fade-down" -->
+<ul>
+<li><code>fade-left</code></li>
+</ul>
+<!-- .element: class="fragment fade-left" -->
+<ul>
+<li><code>fade-right</code></li>
+</ul>
+<!-- .element: class="fragment fade-right" -->
+<!-- list break -->
+<ul>
+<li><code>fade-in-then-out</code></li>
+</ul>
+<!-- .element: class="fragment fade-in-then-out" -->
+<ul>
+<li><code>fade-in-then-semi-out</code></li>
+</ul>
+<!-- .element: class="fragment fade-in-then-semi-out" -->
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> 动画片段</h2>
+<h3> 动画 class</h3>
+<ul>
+<li><code>grow</code></li>
+</ul>
+<!-- .element: class="fragment grow" -->
+<ul>
+<li><code>shrink</code></li>
+</ul>
+<!-- .element: class="fragment shrink" -->
+<ul>
+<li><code>strike</code></li>
+</ul>
+<!-- .element: class="fragment strike" -->
+<!-- list break -->
+<ul>
+<li><code>highlight-red</code></li>
+</ul>
+<!-- .element: class="fragment highlight-red" -->
+<ul>
+<li><code>highlight-green</code></li>
+</ul>
+<!-- .element: class="fragment highlight-green" -->
+<ul>
+<li><code>highlight-blue</code></li>
+</ul>
+<!-- .element: class="fragment highlight-blue" -->
+<!-- list break -->
+<ul>
+<li><code>highlight-current-red</code></li>
+</ul>
+<!-- .element: class="fragment highlight-current-red" -->
+<ul>
+<li><code>highlight-current-green</code></li>
+</ul>
+<!-- .element: class="fragment highlight-current-green" -->
+<ul>
+<li><code>highlight-current-blue</code></li>
+</ul>
+<!-- .element: class="fragment highlight-current-blue" -->
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> 动画片段</h2>
+<h3> 多个动画片段</h3>
+<p>你可以按照顺序包裹一个 HTML 元素使其拥有多个动画片段</p>
+<span class="fragment fade-in">
+  <span class="fragment highlight-red">
+    <span class="fragment fade-out">
+      渐入 &gt; 变红 &gt; 渐出
+    </span>
+  </span>
+</span>
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> 动画片段</h2>
+<h3> 顺序</h3>
+<p>你可以使用 <code>data-fragment-index</code> 属性改变元素的动画顺序。</p>
+<p>不同元素可以有相同的动画顺序。</p>
+<ul>
+<li>最后显示</li>
+</ul>
+<!-- .element: class="fragment" data-fragment-index="3"-->
+<ul>
+<li>第二个显示</li>
+</ul>
+<!-- .element: class="fragment" data-fragment-index="2"-->
+<!-- list break -->
+<ul>
+<li>第一个显示</li>
+</ul>
+<!-- .element: class="fragment" data-fragment-index="1"-->
+<ul>
+<li>第二个显示</li>
+</ul>
+<!-- .element: class="fragment" data-fragment-index="2"-->
+<hr>
+<!-- .slide: data-transition="slide" data-auto-animate -->
+<h2> 渐变</h2>
+<!-- .element: class="r-fit-text" -->
+<p>--</p>
+<!-- .slide: data-transition="slide" data-auto-animate -->
+<h2> 渐变</h2>
+<!-- .element: class="r-fit-text" -->
+<p>Transition 可以通过配置中的 <code>transition</code> 选项全局设置，也可以通过在特定幻灯片添加 <code>data-transition</code> 属性局部设置.</p>
+<p>可能的值:</p>
+<ul>
+<li>none</li>
+<li>fade</li>
+<li>slide</li>
+</ul>
+<!-- list break -->
+<ul>
+<li>convex</li>
+<li>concave</li>
+<li>zoom</li>
+</ul>
+<p>--</p>
+<!-- .slide: data-auto-animate -->
+<h2> 渐变</h2>
+<!-- .element: class="r-fit-text" -->
+<h3> 过渡动画</h3>
+<p>你可以在相邻的幻灯片上添加 <code>data-auto-animate</code> 使相同的 HTML 元素产生过渡动画效果。</p>
+<hr>
+<!-- .slide: data-transition="slide" data-auto-animate -->
+<h2> 功能</h2>
+<!-- .element: class="r-fit-text" -->
+<p>--</p>
+<!-- .slide: data-transition="slide" data-auto-animate -->
+<h2> 功能</h2>
+<!-- .element: class="r-fit-text" -->
+<h3> 代码</h3>
+<p>通过启用 <code>highlight</code> 插件，你可以对代码块进行高亮。</p>
+<p>你可以使用 <code>[a-b|c-d]</code> 语法来分布高亮特定行。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>--</p>
+<!-- .slide: data-transition="slide" data-auto-animate -->
+<h2> 功能</h2>
+<!-- .element: class="r-fit-text" -->
+<h3> 预览模式</h3>
+<p>按下 <code>Esc</code> 或 <code>O</code> 即可在幻灯片获得焦点时进入预览模式。</p>
+<p>--</p>
+<!-- .slide: data-transition="slide" data-auto-animate -->
+<h2> 功能</h2>
+<!-- .element: class="r-fit-text" -->
+<h3> 全屏模式</h3>
+<p>按下 <code>F</code> 或 <code>F11</code> 即可在幻灯片获得焦点时进入全屏模式。</p>
+<p>--</p>
+<!-- .slide: data-transition="slide" data-auto-animate -->
+<h2> 功能</h2>
+<!-- .element: class="r-fit-text" -->
+<h3> 缩放</h3>
+<p>按下 <code>alt</code> (Linux 上使用 <code>ctrl</code>) 的同时点击幻灯片的任何元素，即可以向此元素进行放大。</p>
+<p>再次点击即可缩小。</p>
+<hr>
+<!-- .element: class="r-fit-text" -->
+<h2> 结束</h2>
+<p>@slideend</p>
+]]></content:encoded>
+      <enclosure url="https://blog.dselegent.cf/logo.svg" type="image/svg+xml"/>
+    </item>
+    <item>
+      <title>MongoDB</title>
+      <link>https://blog.dselegent.cf/back_end/mongodb/01.html</link>
+      <guid>https://blog.dselegent.cf/back_end/mongodb/01.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">MongoDB</source>
+      <description>MongoDB https://github.com/Vacricticy/mongodb_practice MongoDB超详细保姆级入门教程！_你的笑只是保护色的博客-CSDN博客</description>
+      <content:encoded><![CDATA[<h1> MongoDB</h1>
+<p><a href="https://github.com/Vacricticy/mongodb_practice" target="_blank" rel="noopener noreferrer">https://github.com/Vacricticy/mongodb_practice</a></p>
+<p><a href="https://blog.csdn.net/lyyrhf/article/details/115469161" target="_blank" rel="noopener noreferrer">MongoDB超详细保姆级入门教程！_你的笑只是保护色的博客-CSDN博客</a></p>
+<h2> 1.下载安装</h2>
+<h3> 1.1 下载MongoDB</h3>
+<p>这里我推介下载zip版本，解压到任意盘，由于C盘容易满，所以我放到了D盘。我在D盘创建了一个 mongoDB 的目录，并将压缩包解压到了这个目录里面。</p>
+<p>下载地址：<a href="https://www.mongodb.com/try/download/community" target="_blank" rel="noopener noreferrer">https://www.mongodb.com/try/download/community</a></p>
+<figure><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3egzpj5qdj31dt0nzk40.jpg" alt="image-20220618195425165" tabindex="0" loading="lazy"><figcaption>image-20220618195425165</figcaption></figure>
+<blockquote>
+<p>mongodb 可以不用配置环境变量。配置环境变量只是为了能在终端（cmd窗口）任意路径中执行bin目录中的命令，就是起到一个方便的作用。</p>
+<p>环境变量也非常的简单,<code>H:\mongoDB\bin</code>将这个添加到系统变量path</p>
+<p>不配置环境变量。如果要启动数据库只能在解压后的 bin 目录中打开 cmd 窗口输入 mongod --dbpath=..\data\db 才可以启动，（这里 dbpath 是指定数据存放的位置，默认在c盘）这里暂时不要启动数据库，因为没有创建 data 目录还有 db 目录</p>
+<p>不过等会会将 MongoDB 添加到系统服务中，这样就不用手动来启动了。</p>
+</blockquote>
+<h3> 1.2 创建目录及配置文件</h3>
+<figure><img src="https://img-blog.csdnimg.cn/20210406195537258.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x5eXJoZg==,size_16,color_FFFFFF,t_70" alt="img" tabindex="0" loading="lazy"><figcaption>img</figcaption></figure>
+<p>接下来在 F盘创建 <code>data</code> 目录，继续在 <code>data</code> <strong>目录下</strong>创建 <code>db</code> 以及 <code>log</code>。<strong><code>log</code> 目录中还需要创建 <code>mongod.log</code> 文件</strong>。这个文件一定要创建否则找不到会报错。</p>
+<ul>
+<li>db：表示数据存储的文件夹</li>
+<li>log：表示日志打印的文件夹</li>
+</ul>
+<figure><img src="https://i0.hdslb.com/bfs/album/a61b017b4467cdfa5d0956ac0d1f5617dc3a13b2.png" alt="image-20220618194533964" tabindex="0" loading="lazy"><figcaption>image-20220618194533964</figcaption></figure>
+<p>然后在 <code>bin</code> 目录的<strong>同级</strong>目录创建 <code>mongod.cfg</code> 文件（说明：配置创建路径其实可以随意，但是不建议😅。后缀也可以随意，建议语义化点比如：cfg、config、conf…），并写入如下内容，<strong>注意：配置件缩进需要使用tab键</strong>（根据自己安装的路径来配置）。</p>
+<figure><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh2u3hn2j30mt0d2795.jpg" alt="image-20220618194730846" tabindex="0" loading="lazy"><figcaption>image-20220618194730846</figcaption></figure>
+<p><strong>mongod.cfg</strong></p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>path 是配置打印日志的目录</li>
+<li>dbpath 是配置数据的存储位置</li>
+<li>port 是配置的端口号</li>
+</ul>
+<h3> 1.3 添加到服务（开机自动启动）</h3>
+<p>只有将 <code>mongodb</code> 添加到系统服务中，他才能自动启动。</p>
+<p><strong>注意</strong>！！<strong>必须以管理员身份打开 <code>cmd</code> 窗口。</strong></p>
+<figure><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh31effmj30xx0hvwfm.jpg" alt="image-20220618194902474" tabindex="0" loading="lazy"><figcaption>image-20220618194902474</figcaption></figure>
+<figure><img src="https://img-blog.csdnimg.cn/8533efb70d064648a8307ff3f0217095.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA5a-45aS055S355Sf,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center" alt="server" tabindex="0" loading="lazy"><figcaption>server</figcaption></figure>
+<p><strong>这里表示执行配置文件，需要写入你的配置文件路径：</strong></p>
+<div class="language-tex line-numbers-mode" data-ext="tex"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>如果配置文件执行报错，最终无法启动，那么就自己在命令行配置mongoDB，把上面需要执行的命令替换为如下命令即可(注意修改自己的路径)</strong></p>
+<div class="language-tex line-numbers-mode" data-ext="tex"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>启动mongoDB：</strong></p>
+<div class="language-tex line-numbers-mode" data-ext="tex"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>后续如果修改 mongoDB 的端口就直接改配置文件，删除服务（服务的删除执行命令：sc delete mongodb），重新执行“添加到服务”</strong></p>
+<h3> 1.4 检查</h3>
+<p>在键盘上按 “WIN+R”，输入“services.msc”指令确定。</p>
+<p>打开服务后，找到MongoDB，如下图表示已经成功！</p>
+<figure><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh3cmeu6j314t0g2qdn.jpg" alt="image-20220618195406910" tabindex="0" loading="lazy"><figcaption>image-20220618195406910</figcaption></figure>
+<p>到这里你已经完成了 mongoDB 的所有配置。接下来如果你需要连接数据库。分两种情况：</p>
+<ul>
+<li>使用 cmd 命令窗口连接
+<ul>
+<li>如果你已经配置了环境变量，直接在 cmd 窗口中输入 <code>mongo</code> 即可连接成功</li>
+<li>如果没有配置环境变量，则需要在 bin 目录中打开 cmd 窗口，输入 <code>mongo</code></li>
+</ul>
+</li>
+</ul>
+<h2> 2.基本介绍</h2>
+<figure><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh3jh74yj30id0jajzd.jpg" alt="image.png" tabindex="0" loading="lazy"><figcaption>image.png</figcaption></figure>
+<figure><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh3p846vj30n70c0adr.jpg" alt="image-20220618195909214" tabindex="0" loading="lazy"><figcaption>image-20220618195909214</figcaption></figure>
+<p><strong>三个概念</strong></p>
+<ol>
+<li>数据库(database)：数据库是一个仓库，在仓库中可以存放集合(collection)</li>
+<li>集合(collection)：一个集合类似于数组，在集合中可以存放文档(document)</li>
+<li>文档(document)：文档数据库中的最小单位，我们存储和操作的内容都是文档</li>
+</ol>
+<figure><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh3xhtbwj310m0bj75i.jpg" alt="image-20220618195919953" tabindex="0" loading="lazy"><figcaption>image-20220618195919953</figcaption></figure>
+<h2> 3.基本操作</h2>
+<p>在MongoDB中，数据库和集合都不需要我们手动创建，当我们创建文档时，如果文档所在的集合或数据库不存在，她会自动创建数据库和集合！</p>
+<p><strong>基本指令</strong></p>
+<ul>
+<li>show dbs 或show databases
+<ul>
+<li>查看所有的数据库</li>
+</ul>
+</li>
+<li>use xxx
+<ul>
+<li>切换到指定的数据库</li>
+</ul>
+</li>
+<li>db
+<ul>
+<li>查看当前操作的数据库</li>
+</ul>
+</li>
+<li>show collections
+<ul>
+<li>查看当前数据库中所有的集合</li>
+</ul>
+</li>
+</ul>
+<h2> 4.插入文档</h2>
+<ul>
+<li>插入一条数据
+<ul>
+<li>db.collectionName.insertOne( {name:'liu'} )
+<ul>
+<li>db表示的是当前操作的数据库</li>
+<li>collectionName表示操作的集合，若没有，则会自动创建</li>
+<li>插入的文档如果没有手动提供_id属性，则会自动创建一个</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>插入多条数据
+<ul>
+<li>db.collectionName.insertMany( [ {name:'liu5'} , {name:'liu6'} ] )
+<ul>
+<li>需要用数组包起来</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>万能API：db.collectionName.insert()</li>
+</ul>
+<blockquote>
+<p>向集合中插入一个或多个文档
+当我们向集合中插入文档时，如果没有给文档指定_id属性，则数据库会自动给文档添加_id
+该属性用来作为文档的唯一标识
+<code>_id</code>可以自己指定，如果我们指定了，数据库就不会再添加了,如果自己指定_id必须也确保唯一性</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 5.查询文档</h2>
+<p><strong>查询数据</strong></p>
+<ul>
+<li>
+<p>db.collectionName.find() 或db.collectionName.find({})</p>
+<ul>
+<li>查询集合所有的文档，即所有的数据。</li>
+<li>查询到的是整个<strong>数组</strong>对象。在最外层是有一个对象包裹起来的。</li>
+<li>db.collectionName.count()或db.collectionName.length()   统计文档个数</li>
+</ul>
+</li>
+<li>
+<p>db.collectionName.find({_id:222})</p>
+<ul>
+<li>条件查询。注意：结果返回的是一个<strong>数组</strong></li>
+</ul>
+</li>
+<li>
+<p>db.collectionName.findOne() 返回的是查询到的对象数组中的第一个对象</p>
+<ul>
+<li>注意：</li>
+</ul>
+</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>db.stus.find({}).count()</strong></p>
+<p>查询所有结果的数量</p>
+<blockquote>
+<ul>
+<li>
+<p>MongoDB的文档的属性值也可以是一个文档，当一个文档的属性值是文档时，我们称这个文档为内嵌文档</p>
+</li>
+<li>
+<p>MongoDB支持直接通过内嵌文档的属性进行查询，如果要查询内嵌文档可以则可以通过==.的形式来匹配，且属性名必须使用引号==,双引号单引号都可以</p>
+</li>
+</ul>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 6.删除文档</h2>
+<ul>
+<li>db.collection.remove（）</li>
+</ul>
+<blockquote>
+<ul>
+<li>可以根据条件来删除文档，传递条件的方式和find（）一样</li>
+<li>能删除符合条件的所有文档，默认删除多个</li>
+<li>如果第二个参数传递一个true，则只会删除一个</li>
+<li>如果只传递一个{ }作为参数，则会删除集合中的所有文档</li>
+</ul>
+</blockquote>
+<ul>
+<li>db.collection.deleteOne（）</li>
+<li>db.collection.deleteMany（）</li>
+<li>db.collection.drop（）</li>
+</ul>
+<blockquote>
+<p>删除集合（如果最后一个集合没了，数据库也没了。。)</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p>一般数据库中的数据都不会删除，所以删除的方法很少调用，一般会在数据中添加一个字段，来表示数据是否被删除</p>
+</blockquote>
+<h2> 7.修改文档</h2>
+<ul>
+<li>db.collection.update(查询条件，新对象)
+<ul>
+<li>update（）默认情况下会使用新对象来替换旧对象</li>
+<li>update（）默认只会修改一个对象</li>
+</ul>
+</li>
+</ul>
+<p>如果需要修改指定的属性，而不是替换，需要使用 “修改操作符” 来完成修改</p>
+<ul>
+<li>$set：可以用来修改文档中的指定属性</li>
+<li>$unset：可以用来删除文档的指定属性</li>
+</ul>
+<p>db.collection.updateMany()：同时修改多个符合条件的文档</p>
+<p>db.collection.updateOne()：修改一个符合条件的文档</p>
+<p>db.collection.replaceOne()：替换一个符合条件的文档</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 8.文档之间的关系</h2>
+<p><strong>一对一</strong></p>
+<p>在MongoDB中，可以通过内嵌文档的形式来体现出一对一的关系</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>一对多</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>多对多</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 9.命令汇总</h2>
+<img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh47aylkj30l809fq7j.jpg">
+<img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh4evq2bj30l30cqte3.jpg">
+<img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh4lw10ij30ox0b6q8y.jpg">
+<img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh4s2h3qj30t10b747b.jpg">
+<img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh4xmjrwj30sy0dmjzz.jpg">
+<img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eh52qhtaj30id0eb79o.jpg">
+]]></content:encoded>
+      <enclosure url="https://tva1.sinaimg.cn/large/0074UQWJgy1h3egzpj5qdj31dt0nzk40.jpg" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>01 【nodejs简介】</title>
+      <link>https://blog.dselegent.cf/back_end/nodeJs/01.html</link>
+      <guid>https://blog.dselegent.cf/back_end/nodeJs/01.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">01 【nodejs简介】</source>
+      <description>01 【nodejs简介】 1.前言 Node 的重要性已经不言而喻，很多互联网公司都已经有大量的高性能系统运行在 Node 之上。Node 凭借其单线程、异步等举措实现了极高的性能基准。此外，目前最为流行的 Web 开发模式是前后端分离的形式，即前端开发者与后端开发者在自己喜欢的 IDE 上独立进行开发，然后通过 HTTP 或是 RPC 等方式实现数据与流程的交互。这种开发模式在 Node 的强大功能的引领下变得越来越高效，也越来越受到各个互联网公司的青睐。 1.1 前端同学为什么要学习后端/后端同学为什么要学习前端</description>
+      <content:encoded><![CDATA[<h1> 01 【nodejs简介】</h1>
+<h2> 1.前言</h2>
+<p>Node 的重要性已经不言而喻，很多互联网公司都已经有大量的高性能系统运行在 Node 之上。Node 凭借其单线程、异步等举措实现了极高的性能基准。此外，目前最为流行的 Web 开发模式是前后端分离的形式，即前端开发者与后端开发者在自己喜欢的 IDE 上独立进行开发，然后通过 HTTP 或是 RPC 等方式实现数据与流程的交互。这种开发模式在 Node 的强大功能的引领下变得越来越高效，也越来越受到各个互联网公司的青睐。</p>
+<h3> 1.1 前端同学为什么要学习后端/后端同学为什么要学习前端</h3>
+<ul>
+<li>了解前后端交互流程。</li>
+<li>前端同学能够和后台开发的程序员更佳紧密地结合、更顺畅地沟通。</li>
+<li>当网站的业务逻辑需要前置时，前端人员需要学习一些后台开发的技术，以完成相应的任务；；反过来也一样。</li>
+<li>拓宽知识视野和技术栈，能够站在全局的角度审视整个项目。</li>
+</ul>
+<h3> 1.2 前端同学为什么要学 Node.js</h3>
+<p>1、Node.js 使用 JavaScript 语言开发服务器端应用，<strong>便于前端同学上手</strong>（一些公司甚至要求前端工程师掌握 Node.js 开发）。</p>
+<p>2、实现了前后端的语法统一，<strong>有利于和前端代码整合</strong>，甚至共用部分代码。</p>
+<p>比如说，针对接口返回的各种字段，前后端都必须要做校验。此时，如果用 Node.js 来做后台开发的话，前后端可以共用校验的代码。</p>
+<p>3、Node.js 性能高、生态系统活跃，提供了大量的开源库。</p>
+<p>4、Jeff Atwood 在 2007 年提出了著名的 Atwood 定律：<strong>任何能够用 JavaScript 实现的应用系统，最终都必将用 JavaScript 实现</strong>。 Jeff Atwood 是谁不重要（他是 Stack Overflow 网站的联合创始人），重要的是这条定律。</p>
+<h2> 2.Node.js是什么？</h2>
+<h3> 2.1 官方定义</h3>
+<p><a href="https://nodejs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Node.js</a> 是一个基于 <strong>Chrome V8 引擎</strong>的 JavaScript 运行环境。Node.js 使用了一个<strong>事件驱动</strong>、<strong>非阻塞式 I/O</strong>的模型，使其轻量又高效。Node.js 的包管理工具 npm 是全球最大的开源库生态系统。</p>
+<p>Node.js 不是一门语言，也不是 JavaScript 的框架，也不是像Nginx一样的Web服务器 ，<strong>Node.js 是 JavaScript 在服务器端的运行环境（平台）</strong>。</p>
+<h3> 2.2 Node.js 的组成</h3>
+<p>在 Node.js 里运行 JavaScript，跟在 Chrome 里运行 JavaScript 有什么不同？</p>
+<p>二者采用的是同样的 JS 引擎。在 Node.js 里写 JS，和在前端写 JS，几乎没有不同。在写法上的区别在于：Node.js 没有浏览器、页面标签相关的 API，但是新增了一些 Node.js 相关的 API。通俗来说，对于开发者而言，在前端写 JS 是用于控制浏览器；而 Node.js 环境写 JS 可以控制整个计算机。</p>
+<p>我们知道，JavaScript 的组成分为三个部分：</p>
+<ul>
+<li>ECMAScript</li>
+<li>DOM：标签元素相关的API</li>
+<li>BOM：浏览器相关的API</li>
+</ul>
+<p>ECMAScript 是 JS 的语法；DOM 和 BOM 浏览器端为 JS 提供的 API。</p>
+<p>而 Node.js 的组成分为：</p>
+<ul>
+<li><strong>ECMAScript</strong>。ECMAScript 的所有语法在 Node 环境中都可以使用。</li>
+<li><strong>Node 环境</strong>提供的一些<strong>附加 API</strong>(包括文件、网络等相关的 API)。</li>
+</ul>
+<p>如下图所示：</p>
+<figure><img src="https://i0.hdslb.com/bfs/album/bab95704bf2f5dd8e05236c74a98d487fafa6d41.png" alt="image-20221102140543274" tabindex="0" loading="lazy"><figcaption>image-20221102140543274</figcaption></figure>
+<h3> 2.3 小总结</h3>
+<ul>
+<li>Node 是一个服务器端 JavaScript 解释器</li>
+<li>Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境</li>
+<li>Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效</li>
+<li>Node.js 的包管理器 npm，是全球最大的开源库生态系统</li>
+<li>Node.js 是一门动态语言，运行在服务端的 Javascript</li>
+</ul>
+<h2> 3.Node.js 的应用</h2>
+<p>Node.js 拥有强大的开发者社区，现在已经发展出比较成熟的技术体系，以及庞大的生态。它被广泛地应用在 Web 服务、开发工作流、客户端应用等诸多领域。其中，在 <strong>Web 服务</strong>领域，业界对 Node.js 的接受程度最高。</p>
+<h3> 3.1 BFF 中间层</h3>
+<p>BFF，即 Backend For Frontend（服务于前端的后端）。玉伯在《<a href="https://mp.weixin.qq.com/s/IYddaaw2ps1wR2VT1dZWPg" target="_blank" rel="noopener noreferrer">从前端技术进化到体验科技</a>》这篇文章中点出了 BFF 层的概念：</p>
+<blockquote>
+<p>BFF 模式下，整体分工很清晰，<strong>后端通过 Java/C++ 等语言负责服务实现，理想情况下给前端提供的是基于领域模型的 RPC 接口，前端则在 BFF 层直接调用服务端 RPC 接口拿到数据</strong>，按需加工消费数据，并实现人机交互。基于 BFF 模式的研发，很适合拥有前端技术背景的全栈型工程师。这种模式的好处很明显，后端可以专注于业务领域，更多从领域模型的视角去思考问题，页面视角的数据则交给前端型全栈工程师去搞定。<strong>领域模型与页面数据是两种思维模式，通过 BFF 可以很好地解耦开，让彼此更专业高效</strong>。</p>
+</blockquote>
+<p>在 Web 服务里，搭建一个中间层，前端访问中间层的接口，中间层再访问后台的 Java/C++ 服务。这类服务的特点是不需要太强的服务器运算能力，但对程序的灵活性有较高的要求。这两个特点，正好和 Node.js 的优势相吻合。Node.js 非常适合用来做 BFF 层，优势如下：</p>
+<ul>
+<li>对于前端来说：让前端<strong>有能力自由组装后台数据</strong>，这样可以减少大量的业务沟通成本，加快业务的迭代速度；并且，前端同学能够<strong>自主决定</strong>与后台的通讯方式。</li>
+<li>对于后台和运维来说，好处是：安全性（不会把主服务器暴露在外面）、降低主服务器的复杂度等。</li>
+</ul>
+<h3> 3.2 服务端渲染</h3>
+<p><strong>客户端渲染</strong>（CSR / Client side render）：前端通过一大堆接口请求数据，然后通过 JS 动态处理和生成页面结构和展示。优点是<strong>前后端分离</strong>、减小服务器压力、局部刷新。缺点是不利于 SEO（如果你的页面然后通过 Ajax 异步获取内容，抓取工具并不会等待异步完成后再行抓取页面内容）、首屏渲染慢。</p>
+<p><strong>服务端渲染</strong>（SSR / Server Side Render）：服务器返回的不是接口数据，而是一整个页面（或整个楼层）的 HTML 字符串，浏览器直接显示即可。也就是说，在服务器端直接就渲染好了，然后一次性打包返回给前端。优点是<strong>有利于 SEO、首屏渲染很快</strong>。</p>
+<p><strong>总结： 搜索引擎优化 + 首屏速度优化 = 服务端渲染</strong>。</p>
+<p>备注：这里的「服务端渲染」只是让 Node.js 做中间层，不会替代后端的，后台同学请放心。</p>
+<p>参考链接：</p>
+<ul>
+<li><a href="https://ssr.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">Vue 服务端渲染的概念</a></li>
+<li><a href="https://blog.csdn.net/u012036171/article/details/88833200" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/u012036171/article/details/88833200</a></li>
+<li><a href="https://juejin.im/post/5c068fd8f265da61524d2abc" target="_blank" rel="noopener noreferrer">https://juejin.im/post/5c068fd8f265da61524d2abc</a></li>
+<li><a href="https://www.zhihu.com/question/59578433/answer/326694511" target="_blank" rel="noopener noreferrer">方应杭</a></li>
+</ul>
+<p>历史回顾：</p>
+<p>（1）一开始，页面很简单，html 是后端渲染的（比如PHP、ASP、JSP等方式）。后端发现页面中的 js 好麻烦（虽然简单，但是坑多），于是让公司招聘专门写 js 的人，简称「前端切图仔」。</p>
+<p>（2）随着 Node.js 和前端 MVC 的兴起，以及前端越来越复杂，慢慢演变成了「前后端分离」。</p>
+<p>（3）前端的 SPA 应用流行之后，发现 SEO 问题很大，而且首屏渲染速度很慢，但是自己选的路再难走也要走下去，于是用 Node.js 在服务端渲染被看成是一条出路。</p>
+<p>（4）以前在一起的时候，是后端做部分前端的工作；现在在一起的时候，是前端做部分后端的工作。</p>
+<h3> 3.3 做小型服务、小型网站的后端（基于 Express、Koa 框架）</h3>
+<p>现在很多公司的后台管理系统，都是用 Node.js 来开发接口，毕竟，后台管理系统对性能和并发的要求不是太高。有了 Node.js 之后，通过 JS 直接操作 DB，做增删改查，生成接口，极大降低了前端同学的学习门槛。</p>
+<p>当然，有时候做 Node.js 开发，是因为：后台人力不够，所以把后台开发的一部分工作量，转移给前端同学。</p>
+<h3> 3.4 做项目构建工具</h3>
+<p>前端正在广泛使用的构建工具 gulp、Webpack，就是基于 Node.js 来实现的。</p>
+<h3> 3.5 做 PC 客户端软件（基于 Electron 框架）</h3>
+<p>Electron 框架就是基于 Node.js 的，可以用来开发客户端软件。</p>
+<p>Electron 原名为 Atom Shell，是由 GitHub 开发的一个开源框架。Electron 以 Node.js 作为运行时（runtime），以 chromium 作为渲染引擎，使开发者可以使用 JS 这种前端技术栈开来发跨平台的桌面GUI应用程序。</p>
+<p>有一点你可能会感到惊讶：程序员们都在用的代码编辑器 VS Code 软件， 就是基于 Electron 框架来开发的。其他使用 Electron 进行开发的知名应用还有：Skype、GitHub Desktop、Slack、WhatsApp等。</p>
+<p>还有一个例子是：电子游戏直播网站 <a href="https://www.twitch.tv/" target="_blank" rel="noopener noreferrer">Twitch</a>，号称是国外游戏直播的鼻祖，它在 PC 端的客户端软件，就是用 Electron 框架的。你会发现，Twitch 的网站视觉，和 PC 端的视觉，几乎是一样的。如果两端都采用 JS 语言，就可以极大的复用现有的工程。</p>
+<h3> 3.6 知名度较高的 Node.js 开源项目</h3>
+<figure><img src="https://i0.hdslb.com/bfs/album/ea53e535fbda0627b4bab6bf90592e0d151a5ec2.png" alt="image-20221102140856507" tabindex="0" loading="lazy"><figcaption>image-20221102140856507</figcaption></figure>
+<ul>
+<li>
+<p>express：Node.js 中著名的 web 服务框架。</p>
+</li>
+<li>
+<p>Koa：下一代的 Node.js 的 Web 服务框架。所谓的“下一代”是相对于 Express 而言的。</p>
+</li>
+<li>
+<p><a href="https://eggjs.org/zh-cn/" target="_blank" rel="noopener noreferrer">Egg</a>：2016 年，阿里巴巴研发了知名的 Egg.js 开源项目，号称企业级 Web 服务框架。Egg.js 是基于 Koa 开发的。</p>
+</li>
+<li>
+<p>mocha：是现在最流行的 JavaScript 测试框架，在浏览器和 Node 环境都可以使用。</p>
+</li>
+<li>
+<p>PM2：node 多进程管理。</p>
+</li>
+<li>
+<p>jade：非常优秀的模板引擎，不仅限于 js 语言。</p>
+</li>
+<li>
+<p>CoffeeScript：用简洁的方式展示 JavaScript 优秀的部分。</p>
+</li>
+<li>
+<p>Atom：编辑器。</p>
+</li>
+<li>
+<p>VS Code：最酷炫的编辑器。</p>
+</li>
+<li>
+<p><a href="http://socket.io" target="_blank" rel="noopener noreferrer">socket.io</a>：实时通信框架。</p>
+</li>
+</ul>
+<h3> 3.7 总结</h3>
+<p>或许，能用 Node.js 做的后台应用，Java/C++ 也能做；但是 Node.js 可以让我们多一种选择。</p>
+<p>短期来看，Node.js 很难像 Java/C++ 那样，成为后台的主力开发语言。这并非是因为 Node.js 的性能问题，主要是因为，Node.js 还比较年轻，经验积累太少，框架的支持度不够。搞企业级服务，Node.js 敌不过 Java/C++，所以目前只能搞「轻量级」；但未来可期。</p>
+<p>限制语言能力的不是语言本身，而是生态。</p>
+<h2> 4.Node.js 的特点</h2>
+<ul>
+<li>异步、非阻塞 IO 模型</li>
+<li>事件循环</li>
+<li>单线程</li>
+<li>总结：轻量和高效</li>
+</ul>
+<p>Node.js 的性能和效率非常高。</p>
+<p>传统的 Java 语言是一个请求开启一个线程，当请求处理完毕后就关闭这个线程。而 Node.js 则完全没有采用这种模型，它本质上就是一个单线程。</p>
+<p>你可能会疑问：一个线程如何服务于大量的请求、如何处理高并发的呢？这是因为，Node.js 采用的是异步的、非阻塞的模型。</p>
+<p>这里所谓的“单线程”，指的是 Node 的主线程只有一个。为了确保主线程不被阻塞，主线程是用于接收客户端请求。但不会处理具体的任务。而 Node 的背后还有一个线程池，线程池会处理长时间运行的任务（比如 IO 操作、网络操作）。线程池里的任务是通过队列和事件循环的机制来执行。</p>
+<h2> 5.使用 Node.js 时的劣势</h2>
+<ul>
+<li>程序运行不稳定，可能会出现服务不可用的情况</li>
+<li>程序运行效率较低，每秒的请求数维持在一个较低的水平</li>
+<li>前端同学对服务器端的技术不太熟悉。</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://i0.hdslb.com/bfs/album/bab95704bf2f5dd8e05236c74a98d487fafa6d41.png" type="image/png"/>
+    </item>
+    <item>
+      <title>02 【nodejs开发环境安装】</title>
+      <link>https://blog.dselegent.cf/back_end/nodeJs/02.html</link>
+      <guid>https://blog.dselegent.cf/back_end/nodeJs/02.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">02 【nodejs开发环境安装】</source>
+      <description>02 【nodejs开发环境安装】 1.版本介绍 在命令窗口中输入 node -v 可以查看版本 0.x 完全不技术 ES6 4.x 部分支持 ES6 特性 5.x 部分支持ES6特性（比4.x多些），属于过渡产品，现在来说应该没有什么理由去用这个了 6.x 支持98%的 ES6 特性 8.x 支持 ES6 特性 2.Node.js 运行环境配置：通过 Node.js 安装包（不推荐） 去 Node.js 的官网下载安装包：</description>
+      <content:encoded><![CDATA[<h1> 02 【nodejs开发环境安装】</h1>
+<h2> 1.版本介绍</h2>
+<ul>
+<li>在命令窗口中输入 node -v 可以查看版本</li>
+<li>0.x 完全不技术 ES6</li>
+<li>4.x 部分支持 ES6 特性</li>
+<li>5.x 部分支持ES6特性（比4.x多些），属于过渡产品，现在来说应该没有什么理由去用这个了</li>
+<li>6.x 支持98%的 ES6 特性</li>
+<li>8.x 支持 ES6 特性</li>
+</ul>
+<h2> 2.Node.js 运行环境配置：通过 Node.js 安装包（不推荐）</h2>
+<p>去 Node.js 的<a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer">官网</a>下载安装包：</p>
+<figure><img src="https://i0.hdslb.com/bfs/album/baa4a48fa8ff1f6e0c463671d144ae9c1111e60c.png" alt="image-20221102141924455" tabindex="0" loading="lazy"><figcaption>image-20221102141924455</figcaption></figure>
+<p>我们也可以在<a href="https://nodejs.org/en/download/releases/" target="_blank" rel="noopener noreferrer">https://nodejs.org/en/download/releases/</a> 里下载历史版本。</p>
+<figure><img src="https://i0.hdslb.com/bfs/album/ae6cded001336936a7580bbdff40d77214b0799c.png" alt="image-20221102142121523" tabindex="0" loading="lazy"><figcaption>image-20221102142121523</figcaption></figure>
+<p>后续如果需要安装其他版本，可以这样做：重新下载最新的安装包，覆盖安装即可。</p>
+<p>但我们并不推荐直接采用 Node.js.msi（windows）或者 Node.js.pkg（Mac） 安装包进行安装，因为会产生如下问题。</p>
+<p><strong>通过 Node.js 安装包产生的问题</strong>：</p>
+<ul>
+<li>安装新版本时，需要覆盖就版本；而且以前版本安装的很多全局工具包，需要重新安装。</li>
+<li>无法回滚到之前的旧版本。</li>
+<li>无法在多个版本之间切换（很多时候，不同的项目需要使用特定版本。或者，我想临时尝鲜一下新版本的特性）</li>
+</ul>
+<p>因此，我们暂时先不用安装 Node.js，稍后用 NVM 的方式来安装 Node.js。通过 NVM 的方式，可以让多个版本的 Node.js 共存，并灵活切换。</p>
+<blockquote>
+<h3> Node.js 版本常识</h3>
+<ul>
+<li>偶数版本为稳定版（0.6.x ，0.8.x ，8.10.x）</li>
+<li>奇数版本为非稳定版（0.7.x ，0.9.x ，9.11.x）</li>
+<li>LTS（Long Term Support）</li>
+</ul>
+<p>参考链接：<a href="https://blog.csdn.net/u012532033/article/details/73332099" target="_blank" rel="noopener noreferrer">node.js 中 LTS 和 Current 的区别</a></p>
+</blockquote>
+<h2> 3.Node.js 运行环境安装：通过 NVM（推荐）</h2>
+<p><strong><a href="https://github.com/nvm-sh/nvm" target="_blank" rel="noopener noreferrer">NVM</a></strong>：node.js version manager，用来管理 node 的版本。</p>
+<p><strong>我们可以先安装 NVM，然后通过 NVM 安装 Node.js</strong>。这是官方推荐的做法。</p>
+<p>Windows 安装的 Node.js 的步骤如下。</p>
+<h3> 3.1 安装 NVM：</h3>
+<p>（1）我们去 <a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank" rel="noopener noreferrer">https://github.com/coreybutler/nvm-windows/releases</a> 下载 NVM 的安装包：</p>
+<figure><img src="https://i0.hdslb.com/bfs/album/57f120a95801261ccefa395f7ed3f766fadb5332.png" alt="image-20221102142420968" tabindex="0" loading="lazy"><figcaption>image-20221102142420968</figcaption></figure>
+<p>下载下来后，直接解压到 <code>D:\web</code>目录下：</p>
+<figure><img src="https://i0.hdslb.com/bfs/album/9052989c7c1c99956b5ed5caafa46964867d0733.png" alt="image-20221102143322915" tabindex="0" loading="lazy"><figcaption>image-20221102143322915</figcaption></figure>
+<p>（2）在上面的目录中，新建一个<code>settings.txt</code>文件，里面的内容填充如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上方内容的解释：</p>
+<ul>
+<li>root 配置为：当前 nvm.exe 所在的目录</li>
+<li>path 配置为：node 快捷方式所在的目录</li>
+<li>arch 配置为：当前操作系统的位数（32/64）</li>
+<li>proxy 不用配置</li>
+</ul>
+<p>（3）配置环境变量：</p>
+<ul>
+<li><code>NVM_HOME</code> = <code>D:\web\nvm</code>（当前 nvm.exe 所在目录）</li>
+<li><code>NVM_SYMLINK</code> = <code>D:\web\nodejs</code> （node 快捷方式所在的目录）</li>
+<li>PATH += <code>;%NVM_HOME%;%NVM_SYMLINK%</code></li>
+</ul>
+<p>配置成功后，重启资源管理器。</p>
+<h3> 3.2 验证</h3>
+<p>（1）输入<code>nvm</code>命令查看环境变量是否配置成功</p>
+<p>（2）输入 <code>nvm ls</code>，查看已安装的所有 node 版本。</p>
+<p>（3）输入 <code>nvm -v</code>，查看 已安装的 nvm 版本。</p>
+<p>（4）输入 <code>node -v</code>，查看正在使用的 node 版本。</p>
+<p>如果 Node 安装失败，可以参考上面这个链接。</p>
+<h3> 3.3 安装指定版本的 Node.js</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输入 <code>node -v</code>，查看当前使用的 node 版本。</p>
+<p>关于 NVM 的常用命令，详见下一段。</p>
+<p>补充：</p>
+<p>如果 Node 安装失败，可以在上方的 <code>settings.txt</code>文件中，新增如下两行，修改镜像源：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li>参考链接：<a href="https://segmentfault.com/a/1190000011114680" target="_blank" rel="noopener noreferrer">安装 npm，nvm，node</a></li>
+</ul>
+<h2> 4.NVM 的常用命令</h2>
+<blockquote>
+<p>注意，这一段说的是 NVM 的常用命令，不是 Node 的常用命令。</p>
+</blockquote>
+<p>查看当前使用的 nvm 版本：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看本地安装的所有的 Node.js 版本：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>安装指定版本的 Node.js：</strong></p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>卸载指定版本 Node.js：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>切换使用指定版本的 node</strong>：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>设置node的默认版本</strong>：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>查看全局npm包的安装路径</strong>：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看远程服务器端的所有 Node 版本：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>执行上面的命令后，在列出的版本清单中，凡是用 <code>Latest LTS</code>标注的版本，则表明是<strong>长期维护</strong>的版本。我们在安装时，建议安装这些版本。当然，我们也可以在网址 <a href="https://nodejs.org/en/download/releases/" target="_blank" rel="noopener noreferrer">https://nodejs.org/en/download/releases/</a> 查看 LTS 的历史版本。</p>
+<h2> 5.Node.js 的常用命令</h2>
+<p>查看 node 的版本：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>执行脚本字符串：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>运行脚本文件：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>查看帮助：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></content:encoded>
+      <enclosure url="https://i0.hdslb.com/bfs/album/baa4a48fa8ff1f6e0c463671d144ae9c1111e60c.png" type="image/png"/>
+    </item>
+    <item>
+      <title>03 【npm的使用】</title>
+      <link>https://blog.dselegent.cf/back_end/nodeJs/03.html</link>
+      <guid>https://blog.dselegent.cf/back_end/nodeJs/03.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">03 【npm的使用】</source>
+      <description>03 【npm的使用】 1.包和npm 1.1 什么是包 由于 Node 是一套轻内核的平台，虽然提供了一系列的内置模块，但是不足以满足开发者的需求，于是乎出现了包（package）的概念： 与核心模块类似，就是将一些预先设计好的功能或者说 API 封装到一个文件夹，提供给开发者使用。 Node 本身并没有太多的功能性 API，所以市面上涌现出大量的第三方人员开发出来的 Package。 1.2 包的加载机制 Node.js中使用CommonJs模块化机制，通过npm下载的第三方包，我们在项目中引入第三方包都是：let xx = require(&amp;apos;第三方包名&amp;apos;)，究竟require方法加载第三方包的原理机制是什么，今天我们来探讨下。</description>
+      <content:encoded><![CDATA[<h1> 03 【npm的使用】</h1>
+<h2> 1.包和npm</h2>
+<h3> 1.1 什么是包</h3>
+<p>由于 Node 是一套轻内核的平台，虽然提供了一系列的内置模块，但是不足以满足开发者的需求，于是乎出现了包（package）的概念： 与核心模块类似，就是将一些预先设计好的功能或者说 API 封装到一个文件夹，提供给开发者使用。</p>
+<p>Node 本身并没有太多的功能性 API，所以市面上涌现出大量的第三方人员开发出来的 Package。</p>
+<h3> 1.2 包的加载机制</h3>
+<p>Node.js中使用<code>CommonJs</code>模块化机制，通过<code>npm</code>下载的第三方包，我们在项目中引入第三方包都是：<code>let xx = require('第三方包名')</code>，究竟<code>require</code>方法加载第三方包的原理机制是什么，今天我们来探讨下。</p>
+<ol>
+<li><code>require('第三方包名')</code>优先在加载该包的模块的同级目录<code>node_modules</code>中查找第三方包。</li>
+<li>找到该第三方包中的<code>package.json</code>文件，并且找到里面的<code>main</code>属性对应的入口模块，该入口模块即为加载的第三方模块。</li>
+<li>如果在要加载的第三方包中没有找到<code>package.json</code>文件或者是<code>package.json</code>文件中没有<code>main</code>属性，则默认加载第三方包中的<code>index.js</code>文件。</li>
+<li>如果在加载第三方模块的文件的同级目录没有找到<code>node_modules</code>文件夹，或者以上所有情况都没有找到，则会向上一级父级目录下查找<code>node_modules</code>文件夹，查找规则如上一致。</li>
+<li>如果一直找到该模块的磁盘根路径都没有找到，则会报错：<code>can not find module xxx</code>。</li>
+</ol>
+<p>比如说：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>那加载的肯定是系统的包。所以，我们尽量不要创建一些和现有的包重名的包。</p>
+<h3> 1.3 npm 的概念</h3>
+<p><strong>NPM</strong>：Node Package Manager。官方链接： <a href="https://www.npmjs.com/" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/</a></p>
+<p>Node.js 发展到现在，已经形成了一个非常庞大的生态圈。包的生态圈一旦繁荣起来，就必须有工具去来管理这些包。NPM 应运而生。</p>
+<p>举个例子，当我们在使用 Java 语言做开发时，需要用到 JDK 提供的内置库，以及第三方库。同样，在使用 JS 做开发时，我们可以使用 NPM 包管理器，方便地使用成熟的、优秀的第三方框架，融合到我们自己的项目中，极大地加速日常开发的构建过程。</p>
+<p>随着时间的发展，NPM 出现了两层概念：</p>
+<ul>
+<li>一层含义是 Node 的开放式模块登记和管理系统，亦可以说是一个生态圈，一个社区。</li>
+<li>另一层含义是 Node 默认的模块管理器，是一个命令行下的软件，用来安装和管理 Node 模块。</li>
+</ul>
+<h3> 1.4 npm 的安装（不需要单独安装）</h3>
+<p>NPM 不需要单独安装。默认在安装 Node 的时候，会连带一起安装 NPM</p>
+<p>NVM、Node、NPM 安装之后，目录分布如下：</p>
+<figure><img src="https://i0.hdslb.com/bfs/album/9d95a2589e45d1d9eaf6fc481335363b9490ec24.png" alt="image-20221102143348894" tabindex="0" loading="lazy"><figcaption>image-20221102143348894</figcaption></figure>
+<figure><img src="https://i0.hdslb.com/bfs/album/11a2587512af408095fe6f2786c596b7ee5e6dbf.png" alt="image-20221102143357922" tabindex="0" loading="lazy"><figcaption>image-20221102143357922</figcaption></figure>
+<figure><img src="https://i0.hdslb.com/bfs/album/137d79fa1ea96221bf9f4baa465ebe7080b500ca.png" alt="image-20221102143410471" tabindex="0" loading="lazy"><figcaption>image-20221102143410471</figcaption></figure>
+<p>输入 <code>npm -v</code>，查看 npm 的版本</p>
+<p>如果上方命令无效，可能是之前的 node 并没有完全安装成功。解决办法：<a href="https://segmentfault.com/a/1190000011114680" target="_blank" rel="noopener noreferrer">https://segmentfault.com/a/1190000011114680</a></p>
+<p>另外，Node 附带的 NPM 可能不是最新版本，可以用下面的命令，更新到最新版本：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 1.5 配置 NPM 的全局目录</h3>
+<p>NPM 默认安装到当前正在使用 Node 版本所在目录下。我们建议重新配置 NPM 的全局目录。</p>
+<p>输入<code>npm config ls</code>，查看</p>
+<p><a href="https://blog.csdn.net/smalCat/article/details/79505441" target="_blank" rel="noopener noreferrer">https://blog.csdn.net/smalCat/article/details/79505441</a></p>
+<h2> 2.NPM 的常用命令</h2>
+<p>查看 npm 当前版本：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>更新 npm：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>项目初始化：（执行完成后，会生成<code>package.json</code>文件）</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>只在当前工程下安装指定的包：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>在全局安装指定的包：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>安装的包只用于开发环境，不用于生产环境：（会出现在 package.json 文件中的 devDependencies 属性中）</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>安装的包需要发布到生产环境：（会出现在 package.json 文件中的 dependencies 属性中）</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>查看当前目录下已安装的 node 包：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看全局已经安装的 node 包：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看 npm 帮助命令：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看指定命令的帮助：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>更新指定的包：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>卸载指定的包：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看配置信息：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看本地安装的指定包的信息，没有则显示 empty：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看全局安装的指定包的信息，没有则显示 empty：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看远程 npm 上指定包的所有版本信息：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看当前包的安装路径：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>查看全局包的安装路径：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h2> 3.配置 npm 镜像源</h2>
+<p>由于 npm 默认的下载地址在国外（<a href="http://npmjs.com" target="_blank" rel="noopener noreferrer">npmjs.com</a>），有时候会被墙，导致无法下载或者下载很慢。因此，我们可以尝试切换成，从其他的镜像源下载 npm 包。</p>
+<p>切换镜像源，有下面这几种方式：</p>
+<ul>
+<li>方式 1：临时切换镜像源。</li>
+<li>方式 2：切换镜像源</li>
+<li>方式 3：通过 NRM 切换镜像源（最为推荐的方式）。</li>
+<li>方式 4：cnpm。</li>
+</ul>
+<h3> 3.1 方式 1：临时切换镜像源</h3>
+<p>安装指定包的时候，通过追加 <code>--registry</code>参数即可。格式如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.2 方式 2：切换镜像源</h3>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>执行上述命令后，以后下载所有 npm 包的时候，都会改为使用淘宝的镜像源。</p>
+<h3> 3.3 方式 3：通过 NRM 切换镜像源（推荐）</h3>
+<p><strong>NRM</strong>：Node Registry Manager。作用是：<strong>切换和管理 npm 包的镜像源</strong>。</p>
+<ul>
+<li>项目地址：<a href="https://www.npmjs.com/package/nrm" target="_blank" rel="noopener noreferrer">https://www.npmjs.com/package/nrm</a></li>
+<li>GitHub 地址： <a href="https://github.com/Pana/nrm" target="_blank" rel="noopener noreferrer">https://github.com/Pana/nrm</a></li>
+</ul>
+<p><strong>安装 NRM</strong>：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><blockquote>
+<p>执行命令<code>nrm ls</code>查看可选的源。</p>
+</blockquote>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol>
+<li>切换</li>
+</ol>
+<p>如果要切换到<code>taobao</code>源，执行命令 <code>nrm use taobao</code>。</p>
+<ol start="2">
+<li>增加</li>
+</ol>
+<p>你可以增加定制的源，特别适用于添加企业内部的私有源，执行命令 <code>nrm add &lt;registry&gt; &lt;url&gt;</code>，其中<code>reigstry</code>为源名，<code>url</code>为源的路径。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="3">
+<li>删除</li>
+</ol>
+<p>执行命令<code>nrm del &lt;registry&gt;</code>删除对应的源。</p>
+<ol start="4">
+<li>测试速度</li>
+</ol>
+<p>你还可以通过 <code>nrm test</code> 测试相应源的响应时间。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3> 3.4 方式 4：安装 cnpm</h3>
+<ul>
+<li>项目地址：<a href="https://npmmirror.com/" target="_blank" rel="noopener noreferrer">npmmirror 中国镜像站</a></li>
+</ul>
+<p>安装<code>cnpm</code>替换 npm（npm 由于源服务器在国外，下载包的速度较慢，cnpm 会使用国内镜像）：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>以后我们就可以通过 cnpm 命令去安装一个包。举例如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>这里的单词 <code>install</code> 可以简写成 <code>i</code>。</p>
+<h2> 4.什么是 npm 脚本</h2>
+<blockquote>
+<p>npm 允许在<code>package.json</code>文件里面，使用<code>scripts</code>字段定义脚本命令。<code>package.json</code> 里面的<code>scripts</code> 字段是一个对象。它的每一个属性，对应一段脚本。定义在<code>package.json</code>里面的脚本，就称为 <code>npm</code> 脚本。</p>
+</blockquote>
+<p>查看当前项目的所有 npm 脚本命令，可以使用不带任何参数的<code>npm run</code>命令。</p>
+<h3> 4.1 使用</h3>
+<ul>
+<li><code>npm run</code> 脚本名称</li>
+<li>如果是并行执行（即同时的平行执行），可以使用&amp;符号。 <code>npm run script1.js &amp; npm run script2.js</code></li>
+<li>如果是继发执行（即只有前一个任务成功，才执行下一个任务），可以使用&amp;&amp;符号。<code>npm run script1.js &amp;&amp; npm run script2.js</code></li>
+</ul>
+<h3> 4.2 简写形式</h3>
+<ul>
+<li><code>npm start</code> 即 <code>npm run start</code></li>
+<li><code>npm stop</code> 即 <code>npm run stop</code></li>
+<li><code>npm test</code> 即 <code>npm run test</code></li>
+<li><code>npm restart</code> 即 <code>npm run stop &amp;&amp; npm run restart &amp;&amp; npm run start</code></li>
+</ul>
+<h2> 5.pnpm</h2>
+<h3> 5.1 pnpm 是什么</h3>
+<blockquote>
+<p>pnpm是 Node.js 的替代包管理器。它是 npm 的直接替代品，但速度更快、效率更高。</p>
+</blockquote>
+<blockquote>
+<p>为什么效率更高？当您安装软件包时，我们会将其保存在您机器上的全局存储中，然后我们会从中创建一个硬链接，而不是进行复制。对于模块的每个版本，磁盘上只保留一个副本。例如，当使用 npm 或 yarn 时，如果您有 100 个使用 lodash 的包，则磁盘上将有 100 个 lodash 副本。pnpm 可让您节省数 GB 的磁盘空间！</p>
+</blockquote>
+<p>pnpm优势
+pnpm 拥有 Yarn 超过 npm 的所有附加功能：</p>
+<ul>
+<li><strong>安全</strong>: 与 yarn 一样，pnpm 有一个包含所有已安装包校验和的特殊文件，用于在执行代码之前验证每个已安装包的完整性。</li>
+<li><strong>离线模式</strong>: pnpm 将所有下载的包 tarball 保存在本地注册表镜像中。当包在本地可用时，它从不发出请求。使用该--offline参数可以完全禁止 HTTP 请求。</li>
+<li><strong>速度</strong>: pnpm 不仅比 npm 快，而且比 yarn 快。无论是冷缓存还是热缓存，它都比 yarn 快。yarn 从缓存中复制文件，而 pnpm 只是从全局存储中链接它们。</li>
+</ul>
+<h3> 5.2 pnpm 的使用</h3>
+<p><strong>官网</strong>： <code>https://pnpm.js.org/installation/</code></p>
+<p><strong>全局安装</strong></p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>设置源</strong></p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>使用</strong></p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>移除</strong></p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>更新</strong></p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 6.npm命令总结</h2>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 7.使用 nodemon 自动重启服务</h2>
+<p>我们在开发的过程中，每次改完代码之后都必须重启服务器，显然这样的操作效率是比较低，这里给大家推荐个工具，<code>nodemon</code>,<code>nodemon</code>可以帮我们实时监听项目中代码的变化，并且自动重启服务，而且配置简单。</p>
+<ol>
+<li>
+<p>安装：<code>npm install -g nodemon</code></p>
+<blockquote>
+<p>如果无法使用nodemon，那么要去环境变量中进行配置</p>
+</blockquote>
+</li>
+<li>
+<p>使用<code>nodemon</code>运行项目，取代之前的<code>node app.js</code>。</p>
+</li>
+</ol>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>项目运行之后，<code>nodemon</code>会自动监听代码的改动，并且重新启动服务，大大增加我们开发效率。</p>
+<ol start="3">
+<li><code>nodemon</code>常见配置</li>
+</ol>
+<ul>
+<li>在命令行指定应用的端口号：<code>nodemon ./server.js localhost 8080</code></li>
+<li>查看帮助，帮助里面有很多选项都是一目了然：<code>nodemon -h 或者 nodemon --help</code></li>
+<li>运行 debug 模式：<code>nodemon --debug ./server.js 80</code></li>
+<li>手动重启项目： <code>Nodemon</code> 命令运行的终端 窗口中输入 <code>rs</code> 两个字符，然后再按下回车键，就能手动重启 <code>Nodemon</code>了。</li>
+</ul>
+]]></content:encoded>
+      <enclosure url="https://i0.hdslb.com/bfs/album/9d95a2589e45d1d9eaf6fc481335363b9490ec24.png" type="image/png"/>
+    </item>
+    <item>
+      <title>04 【nodejs模块化规范：CommonJS】</title>
+      <link>https://blog.dselegent.cf/back_end/nodeJs/04.html</link>
+      <guid>https://blog.dselegent.cf/back_end/nodeJs/04.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">04 【nodejs模块化规范：CommonJS】</source>
+      <description>04 【nodejs模块化规范：CommonJS】 1.前言 网站越来越复杂，js代码、js文件也越来越多，会遇到一些问题： 文件依赖 全局污染、命名冲突 程序模块化包括： 日期模块 数学计算模块 日志模块 登陆认证模块 报表展示模块等。 所有这些模块共同组成了程序软件系统。 一次编写，多次使用，才是提高效率的核心。</description>
+      <content:encoded><![CDATA[<h1> 04 【nodejs模块化规范：CommonJS】</h1>
+<h2> 1.前言</h2>
+<p>网站越来越复杂，js代码、js文件也越来越多，会遇到<strong>一些问题</strong>：</p>
+<ul>
+<li>文件依赖</li>
+<li>全局污染、命名冲突</li>
+</ul>
+<p>程序模块化包括：</p>
+<ul>
+<li>日期模块</li>
+<li>数学计算模块</li>
+<li>日志模块</li>
+<li>登陆认证模块</li>
+<li>报表展示模块等。</li>
+</ul>
+<p>所有这些模块共同组成了程序软件系统。</p>
+<p>一次编写，多次使用，才是提高效率的核心。</p>
+<h2> 2.模块化的理解</h2>
+<h3> 2.1 什么是模块化</h3>
+<p><strong>概念</strong>：将一个复杂的程序依据一定的规则（规范）封装成几个块（文件），并组合在一起。</p>
+<p>模块的内部数据、实现是私有的, 只是向外部暴露一些接口(方法)与外部其它模块通信。</p>
+<p>最早的时候，我们会把所有的代码都写在一个js文件里，那么，耦合性会很高（关联性强），不利于维护；而且会造成全局污染，很容易命名冲突。</p>
+<h3> 2.2 模块化的好处</h3>
+<ul>
+<li>避免命名冲突，减少命名空间污染</li>
+<li>降低耦合性；更好地分离、按需加载</li>
+<li><strong>高复用性</strong>：代码方便重用，别人开发的模块直接拿过来就可以使用，不需要重复开发类似的功能。</li>
+<li><strong>高可维护性</strong>：软件的声明周期中最长的阶段其实并不是开发阶段，而是维护阶段，需求变更比较频繁。使用模块化的开发，方式更容易维护。</li>
+<li>部署方便</li>
+</ul>
+<h2> 3.模块化规范</h2>
+<h3> 3.1 模块化规范的引入</h3>
+<p>假设我们引入模块化，首先可能会想到的思路是：在一个文件中引入多个js文件。如下：</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>但是这样做会带来很多问题：</p>
+<ul>
+<li>请求过多：引入十个js文件，就有十次http请求。</li>
+<li>依赖模糊：不同的js文件可能会相互依赖，如果改其中的一个文件，另外一个文件可能会报错。</li>
+</ul>
+<p>以上两点，最终导致：<strong>难以维护</strong>。</p>
+<p>于是，这就引入了模块化规范。</p>
+<h3> 3.2 模块化的概念解读</h3>
+<p>模块化起源于 Node.js。Node.js 中把很多 js 打包成 package，需要的时候直接通过 require 的方式进行调用（CommonJS），这就是模块化的方式。</p>
+<p>那如何把这种模块化思维应用到前端来呢？这就产生了两种伟大的 js：RequireJS 和 SeaJS。</p>
+<h3> 3.3 模块化规范</h3>
+<p>服务器端规范：</p>
+<ul>
+<li><a href="http://www.commonjs.org/" target="_blank" rel="noopener noreferrer"><strong>CommonJS规范</strong></a>：是 Node.js 使用的模块化规范。</li>
+</ul>
+<p>CommonJS 就是一套约定标准，不是技术。用于约定我们的代码应该是怎样的一种结构。</p>
+<p>浏览器端规范：</p>
+<ul>
+<li><a href="https://github.com/amdjs/amdjs-api" target="_blank" rel="noopener noreferrer"><strong>AMD规范</strong></a>：是 <strong><a href="http://requirejs.org/" target="_blank" rel="noopener noreferrer">RequireJS</a></strong> 在推广过程中对模块化定义的规范化产出。</li>
+</ul>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<li><strong><a href="https://web.qianguyihao.com/11-Node.js/04-Node.js%E6%A8%A1%E5%9D%97%E5%8C%96%E8%A7%84%E8%8C%83%EF%BC%9ACommonJS.html" target="_blank" rel="noopener noreferrer">CMD规范</a></strong>：是 <strong><a href="http://seajs.org/" target="_blank" rel="noopener noreferrer">SeaJS</a></strong> 在推广过程中对模块化定义的规范化产出。淘宝团队开发。</li>
+</ul>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>PS：面试时，经常会问AMD 和 CMD 的区别。</p>
+<p>另外，还有ES6规范：import &amp; export。</p>
+<p>这篇文章，我们来讲一下<code>CommonJS</code>，它是 Node.js 使用的模块化规范。</p>
+<h2> 4.CommonJS 的基本语法</h2>
+<h3> 4.1 CommonJS 的介绍</h3>
+<p><a href="http://www.commonjs.org/" target="_blank" rel="noopener noreferrer">CommonJS</a>：是 Node.js 使用的模块化规范。也就是说，Node.js 就是基于 CommonJS 这种模块化规范来编写的。</p>
+<p>CommonJS 规范规定：每个模块内部，module 变量代表当前模块。这个变量是一个对象，它的 exports 属性（即 module.exports）是对外的接口对象。加载某个模块，其实是加载该模块的 module.exports 对象。</p>
+<p>在 CommonJS 中，每个文件都可以当作一个模块：</p>
+<ul>
+<li>在服务器端：模块的加载是运行时同步加载的。</li>
+<li>在浏览器端: 模块需要提前编译打包处理。首先，既然同步的，很容易引起阻塞；其次，浏览器不认识<code>require</code>语法，因此，需要提前编译打包。</li>
+</ul>
+<h3> 4.2 模块的暴露和引入</h3>
+<h3> 4.3 模块的暴露和引入</h3>
+<p>Node.js 中只有模块级作用域，两个模块之间的变量、方法，默认是互不冲突，互不影响，这样就导致一个问题：模块 A 要怎样使用模块B中的变量&amp;方法呢？这就需要通过 <code>exports</code> 关键字来实现。</p>
+<p>Node.js中，每个模块都有一个 exports 接口对象，我们可以把公共的变量、方法挂载到这个接口对象中，其他的模块才可以使用。</p>
+<p>接下来详细讲一讲模块的暴露、模块的引入。</p>
+<h4> 4.3.1 暴露模块的方式一： exports</h4>
+<p><code>exports</code>对象用来导出当前模块的公共方法或属性。别的模块通过 require 函数调用当前模块时，得到的就是当前模块的 exports 对象。</p>
+<p><strong>语法格式</strong>：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>这个 value 可以是任意的数据类型。</p>
+<p><strong>注意</strong>：暴露的关键词是<code>exports</code>，不是<code>export</code>。其实，这里的 exports 类似于 ES6 中的 export 的用法，都是用来导出一个指定名字的对象。</p>
+<p><strong>代码举例</strong>：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 4.3.2 暴露模块的方式二： module.exports</h4>
+<p><code>module.exports</code>用来导出一个默认对象，没有指定对象名。</p>
+<p>语法格式：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这个 value 可以是任意的数据类型。</p>
+<p>代码举例：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>module.exports</code> 还可以修改模块的原始导出对象。比如当前模块原本导出的是一个对象，我们可以通过 module.exports 修改为导出一个函数。如下：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.4 exports 和 module.exports 的区别</h3>
+<p>最重要的区别：</p>
+<ul>
+<li>使用exports时，只能单个设置属性 <code>exports.a = a;</code></li>
+<li>使用module.exports时，既单个设置属性 <code>module.exports.a</code>，也可以整个赋值 <code>module.exports = obj</code>。</li>
+</ul>
+<p>其他要点：</p>
+<ul>
+<li>Node中每个模块的最后，都会执行 <code>return: module.exports</code>。</li>
+<li>Node中每个模块都会把 <code>module.exports</code>指向的对象赋值给一个变量 <code>exports</code>，也就是说 <code>exports = module.exports</code>。</li>
+<li><code>module.exports = XXX</code>，表示当前模块导出一个单一成员，结果就是XXX。</li>
+<li>如果需要导出多个成员，则必须使用 <code>exports.add = XXX; exports.foo = XXX</code>。或者使用 <code>module.exports.add = XXX; module.export.foo = XXX</code>。</li>
+</ul>
+<h3> 4.5 问题: 暴露的模块到底是谁？</h3>
+<p><strong>答案</strong>：暴露的本质是<code>exports</code>对象。【重要】</p>
+<p>比如，方式一的 <code>exports.a = a</code> 可以理解成是，<strong>给 exports 对象添加属性</strong>。方式二的 <code>module.exports = a</code>可以理解成是给整个 exports 对象赋值。方式二的 <code>module.exports.c = c</code>可以理解成是给 exports 对象添加属性。</p>
+<p>Node.js 中每个模块都有一个 module 对象，module 对象中的有一个 exports 属性称之为<strong>接口对象</strong>。我们需要把模块之间公共的方法或属性挂载在这个接口对象中，方便其他的模块使用。</p>
+<h3> 4.6 引入模块的方式：require</h3>
+<p>require函数用来在一个模块中引入另外一个模块。传入模块名，返回模块导出对象。</p>
+<p><strong>语法格式</strong>：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>解释：</p>
+<ul>
+<li>内置模块：require的是<strong>包名</strong>。</li>
+<li>下载的第三方模块：require的是<strong>包名</strong>。</li>
+<li>自定义模块：require的是<strong>文件路径</strong>。文件路径既可以用绝对路径，也可以用相对路径。后缀名<code>.js</code>可以省略。</li>
+</ul>
+<p><strong>代码举例</strong>：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>require()函数的两个作用</strong>：</p>
+<ul>
+<li>执行导入的模块中的代码。</li>
+<li>返回导入模块中的接口对象。</li>
+</ul>
+<h3> 4.7 主模块</h3>
+<p>主模块是整个程序执行的入口，可以调度其他模块。</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.8 模块的初始化</h3>
+<p>一个模块中的 JS 代码仅在模块<strong>第一次被使用时</strong>执行一次，并且在使用的过程中进行初始化，然后会被缓存起来，便于后续继续使用。</p>
+<p>代码举例：</p>
+<p>（1）calModule.js:</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（2）main.js：（在 main.js 中引入 hello.js 模块）</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>在命令行执行 <code>node main.js</code> 运行程序，打印结果：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>从打印结果中可以看出，<code>calModule.js</code>这个模块虽然被引用了两次，但只初始化了一次。</p>
+<h2> 5.commonjs-在服务器端的实现举例</h2>
+<p>（1）module1.js：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（2）module2.js：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意，此时暴露出去的 exports 对象 等价于整个函数。</p>
+<p>（3）module3.js：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（4）app.js：（将其他模块汇集到主模块）</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这样的话，我们的代码就写完了。</p>
+<p>我们在命令行中输入<code>node app.js</code>，就可以把代码跑起来了。打印结果如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 6.commonjs-基于浏览器端的实现举例</h2>
+<h3> 6.1 初始化项目</h3>
+<p>在工程文件中新建如下目录和文件：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>然后在根目录下新建如下命令：</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>然后根据提示，依次输入如下内容：</p>
+<ul>
+<li><strong>包名</strong>：可以自己起包名，也可以用默认的包名。注意，包名里不能有中文，不能有大写。</li>
+<li><strong>版本</strong>：可以用默认的版本 1.0.0，也可以自己修改包名。</li>
+</ul>
+<p>其他的参数，一路回车即可。</p>
+<p>于是，根目录下会自动生成<code>package.json</code>这个文件。点进去看一下：</p>
+<div class="language-json line-numbers-mode" data-ext="json"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 6.2 下载第三方包：Browserify</h3>
+<p>这里需要用到<a href="http://browserify.org/" target="_blank" rel="noopener noreferrer">Browserify</a>这个工具进行编译打包。Browserify 称为 CommonJS 的浏览器端的打包工具。</p>
+<p>输入如下命令进行安装：（两个命令都要输入）</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>上面的代码中，<code>-dev</code>表示开发依赖。这里解释一下相关概念：</p>
+<ul>
+<li>开发依赖：当前这个包，只在开发环境下使用。</li>
+<li>运行依赖：当前这个包，是在生产环境下使用。</li>
+</ul>
+<h3> 6.3 自定义模块 &amp; 代码运行</h3>
+<p>（1）module1.js：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（2）module2.js：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>注意，此时暴露出去的 exports 对象 等价于整个函数。</p>
+<p>（3）module3.js：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>（4）app.js：（将其他模块汇集到主模块</p>
+<p>引入的路径解释：</p>
+<ul>
+<li><code>./</code>是相对路径，指的是当前路径（app.js的当前路径是src）</li>
+</ul>
+<p>到此，我们的主要代码就写完了。</p>
+<p>但是，如果我们直接在index.html中，像下面这样写，是不行的：（因为浏览器不认识 require 关键字）</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>为了能够让index.html引入app.js，我们需要输入如下命令：</p>
+<p>打包处理js:</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>然后在index.html中引入打包后的文件：</p>
+<div class="language-html line-numbers-mode" data-ext="html"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>05 【nodejs内置模块（上）】</title>
+      <link>https://blog.dselegent.cf/back_end/nodeJs/05.html</link>
+      <guid>https://blog.dselegent.cf/back_end/nodeJs/05.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">05 【nodejs内置模块（上）】</source>
+      <description>05 【nodejs内置模块（上）】 1.nodejs 的官方API文档 Node.js 的API文档（英文）： https://nodejs.org/docs/latest-v8.x/api/index.html Node.js 的API文档（中文）：http://nodejs.cn/api/</description>
+      <content:encoded><![CDATA[<h1> 05 【nodejs内置模块（上）】</h1>
+<h2> 1.nodejs 的官方API文档</h2>
+<ul>
+<li>Node.js 的API文档（英文）： <a href="https://nodejs.org/docs/latest-v8.x/api/index.html" target="_blank" rel="noopener noreferrer">https://nodejs.org/docs/latest-v8.x/api/index.html</a></li>
+<li>Node.js 的API文档（中文）：<a href="http://nodejs.cn/api/" target="_blank" rel="noopener noreferrer">http://nodejs.cn/api/</a></li>
+</ul>
+<p>关于 Node.js 的内置模块和常见API，可以看官方文档。</p>
+<p>查阅文档时，稳定指数如下：</p>
+<ul>
+<li>红色：废弃。</li>
+<li>橙色：实验。表示当前版本可用，其他版本不确定。也许不向下兼容，建议不要在生产环境中使用该特性。</li>
+<li>绿色：稳定。与 npm 生态系统的兼容性是最高的优先级。</li>
+</ul>
+<h2> 2.nodejs 中模块的分类</h2>
+<p>Node.js 应用由模块组成，采用 CommonJS 模块规范。Node.js中的模块分为三种：</p>
+<ul>
+<li>内置模块</li>
+<li>第三方模块</li>
+<li>自定义模块</li>
+</ul>
+<p>下面简单介绍一下。</p>
+<h3> 2.1 内置模块</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>require方法用于加载模块。</p>
+<p>常见的内置模块包括：</p>
+<ul>
+<li>FS：文件系统模块</li>
+<li>path：路径模块</li>
+<li>OS：操作系统相关</li>
+<li>net：网络相关</li>
+<li>http</li>
+<li>...</li>
+</ul>
+<p>你可能会有疑问：Node.js 这么牛吗？还能直接和操作系统做交互？</p>
+<p>带着这个疑问，我们不妨简单看看 Node.js 的源码，以 os 模块举例：</p>
+<ul>
+<li>打开os模块的源码：<a href="https://github.com/nodejs/node/blob/master/lib/os.js%EF%BC%8C%E7%BF%BB%E5%88%B0%E6%9C%80%E5%BA%95%E9%83%A8%EF%BC%8C%E6%89%BE%E5%88%B0" target="_blank" rel="noopener noreferrer">https://github.com/nodejs/node/blob/master/lib/os.js，翻到最底部，找到</a> <code>cpus</code>这个方法</li>
+<li>进而找到 <code>getCPUs()</code></li>
+<li>internalBinding('os')：通过 internalBinding 可以调用系统底层的方法。internalBinding 主要是 JS 虚拟机在做的事情。</li>
+<li><code>internalBinding('os')</code> 的实现，在 <a href="https://github.com/nodejs/node/blob/master/src/node_os.cc" target="_blank" rel="noopener noreferrer">https://github.com/nodejs/node/blob/master/src/node_os.cc</a> 里，里面都是 C++ 的代码。比如有一个<code>getCPUs</code>方法。</li>
+</ul>
+<p>现在你知道了，JS本身是没有能力获取底层系统资源的，这一切都是 JS虚拟机在和底层做交互，然后通过 JS 的表现形式，暴露给应用层。</p>
+<p>另外，还有很多库，是直接使用C/++编写的，通过编译之后，再提供给 JS 应用层调用，或者直接提供给 Node.js层使用。</p>
+<p><strong>所有的编程语言底层都会回归C/C++</strong>，甚至是汇编语言。</p>
+<h3> 2.2 require 加载第三方包的机制</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>require 加载第三方包的机制：</p>
+<p>（1）第三方包安装好后，这个包一般会存放在当前项目的 node_modules 文件夹中。我们找到这个包的 package.json 文件，并且找到里面的main属性对应的入口模块，这个入口模块就是这个包的入口文件。</p>
+<p>（2）如果第三方包中没有找到package.json文件，或者package.json文件中没有main属性，则默认加载第三方包中的index.js文件。</p>
+<p>（3）如果在 node_modules 文件夹中没有找到这个包，或者以上所有情况都没有找到，则会向上一级父级目录下查找node_modules文件夹，查找规则如上一致。</p>
+<p>（4）如果一直找到该模块的磁盘根路径都没有找到，则会报错：can not find module xxx。</p>
+<h3> 2.3 自定义模块（module）</h3>
+<p>每个文件就是一个模块，有自己的作用域。在一个文件里面定义的变量、函数、类，都是私有的，对其他文件不可见。</p>
+<p>举例：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 3.网络服务 http</h2>
+<h3> 3.1 http模块概览</h3>
+<p>大多数nodejs开发者都是冲着开发web server的目的选择了nodejs。正如官网所展示的，借助http模块，可以几行代码就搞定一个超迷你的web server。</p>
+<p>在nodejs中，<code>http</code>可以说是最核心的模块，同时也是比较复杂的一个模块。上手很简单，但一旦深入学习，不少初学者就会觉得头疼，不知从何入手。</p>
+<p>本文先从一个简单的例子出发，引出<code>http</code>模块最核心的四个实例。看完本文，应该就能够对http模块有个整体的认识。</p>
+<h3> 3.2 一个简单的例子</h3>
+<p>在下面的例子中，我们创建了1个web服务器、1个http客户端</p>
+<ul>
+<li>服务器server：接收来自客户端的请求，并将客户端请求的地址返回给客户端。</li>
+<li>客户端client：向服务器发起请求，并将服务器返回的内容打印到控制台。</li>
+</ul>
+<p>代码如下所示，只有几行，但包含了不少信息量。下一小节会进行简单介绍。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.3 例子解释</h3>
+<p>在上面这个简单的例子里，涉及了4个实例。大部分时候，serverReq、serverRes 才是主角。</p>
+<ul>
+<li>server：http.Server实例，用来提供服务，处理客户端的请求。</li>
+<li>client：http.ClientReques实例，用来向服务端发起请求。</li>
+<li>serverReq/clientRes：其实都是 http.IncomingMessage实例。serverReq 用来获取客户端请求的相关信息，如request header；而clientRes用来获取服务端返回的相关信息，比如response header。</li>
+<li>serverRes：http.ServerResponse实例</li>
+</ul>
+<h3> 3.4 关于http.IncomingMessage、http.ServerResponse</h3>
+<p>先讲下 http.ServerResponse 实例。作用很明确，服务端通过http.ServerResponse 实例，来个请求方发送数据。包括发送响应表头，发送响应主体等。</p>
+<p>接下来是 http.IncomingMessage 实例，由于在 server、client 都出现了，初学者难免有点迷茫。它的作用是</p>
+<p>在server端：获取请求发送方的信息，比如请求方法、路径、传递的数据等。 在client端：获取 server 端发送过来的信息，比如请求方法、路径、传递的数据等。</p>
+<p>http.IncomingMessage实例 有三个属性需要注意：method、statusCode、statusMessage。</p>
+<ul>
+<li>method：只在 server 端的实例有（也就是 serverReq.method）</li>
+<li>statusCode/statusMessage：只在 client 端 的实例有（也就是 clientRes.method）</li>
+</ul>
+<h2> 4.网络服务 http res</h2>
+<h3> 4.1 概览</h3>
+<p>http模块四剑客之一的<code>res</code>，应该都不陌生了。一个web服务程序，接受到来自客户端的http请求后，向客户端返回正确的响应内容，这就是<code>res</code>的职责。</p>
+<p>返回的内容包括：状态代码/状态描述信息、响应头部、响应主体。下文会举几个简单的例子。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.2 例子</h3>
+<p>在下面的例子中，我们同时设置了 状态代码/状态描述信息、响应头部、响应主体，就是这么简单。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.3 设置状态代码、状态描述信息</h3>
+<p><code>res</code>提供了 res.writeHead()、res.statusCode/res.statusMessage 来实现这个目的。</p>
+<p>举例，如果想要设置 200/ok ，可以</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>也可以</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>两者差不多，差异点在于</p>
+<ol>
+<li>res.writeHead() 可以提供额外的功能，比如设置响应头部。</li>
+<li>当响应头部发送出去后，res.statusCode/res.statusMessage 会被设置成已发送出去的 状态代码/状态描述信息。</li>
+</ol>
+<h3> 4.4 设置响应头部</h3>
+<p><code>res</code>提供了 res.writeHead()、response.setHeader() 来实现响应头部的设置。</p>
+<p>举例，比如想把 <code>Content-Type</code> 设置为 <code>text-plain</code>，那么可以</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>两者的差异点在哪里呢？</p>
+<ol>
+<li>res.writeHead() 不单单是设置header。</li>
+<li>已经通过 res.setHeader() 设置了header，当通过 res.writeHead() 设置同名header，res.writeHead() 的设置会覆盖之前的设置。</li>
+</ol>
+<p>关于第2点差异，这里举个例子。下面代码，最终的 <code>Content-Type</code> 为 <code>text/plain</code>。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>而下面的例子，则直接报错。报错信息为 <code>Error: Can't set headers after they are sent.</code>。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.5 其他响应头部操作</h3>
+<p>增、删、改、查 是配套的。下面分别举例说明下，例子太简单就直接上代码了。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>其中略显不同的是 res.getHeader(name)，name 用的是小写，返回值没做特殊处理。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>此外，还有不那么常用的：</p>
+<ul>
+<li>res.headersSent：header是否已经发送；</li>
+<li>res.sendDate：默认为true。但为true时，会在response header里自动设置Date首部。</li>
+</ul>
+<h3> 4.6 设置响应主体</h3>
+<p>主要用到 res.write() 以及 res.end() 两个方法。</p>
+<p>res.write() API的信息量略大，建议看下<a href="https://nodejs.org/api/http.html#http_response_write_chunk_encoding_callback" target="_blank" rel="noopener noreferrer">官方文档</a>。</p>
+<h4> 4.6.1 response.write(chunk[, encoding][, callback])</h4>
+<ul>
+<li>chunk：响应主体的内容，可以是string，也可以是buffer。当为string时，encoding参数用来指明编码方式。（默认是utf8）</li>
+<li>encoding：编码方式，默认是 utf8。</li>
+<li>callback：当响应体flushed时触发。（TODO 这里想下更好的解释。。。）</li>
+</ul>
+<p>使用上没什么难度，只是有些注意事项：</p>
+<ol>
+<li>如果 res.write() 被调用时， res.writeHead() 还没被调用过，那么，就会把header flush出去。</li>
+<li>res.write() 可以被调用多次。</li>
+<li>当 res.write(chunk) 第一次被调用时，node 会将 header 信息 以及 chunk 发送到客户端。第二次调用 res.write(chunk) ，node 会认为你是要streaming data（WTF，该怎么翻译）。。。</li>
+</ol>
+<blockquote>
+<p>Returns true if the entire data was flushed successfully to the kernel buffer. Returns false if all or part of the data was queued in user memory. 'drain' will be emitted when the buffer is free again.</p>
+</blockquote>
+<h4> 4.6.2 response.end([data][, encoding][, callback])</h4>
+<p>掌握了 res.write() 的话，res.end() 就很简单了。res.end() 的用处是告诉nodejs，header、body都给你了，这次响应就到这里吧。</p>
+<p>有点像个语法糖，可以看成下面两个调用的组合。至于callback，当响应传递结束后触发。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h3> 4.7 超时处理</h3>
+<p>接口：response.setTimeout(msecs, callback)</p>
+<p>关于 timeout 事件的说明，同样是言简意赅（WTF），话少信息量大，最好来个demo TODO</p>
+<blockquote>
+<p>If no 'timeout' listener is added to the request, the response, or the server, then sockets are destroyed when they time out. If you assign a handler on the request, the response, or the server's 'timeout' events, then it is your responsibility to handle timed out sockets.</p>
+</blockquote>
+<h3> 4.8 事件 close/finish</h3>
+<ul>
+<li>close：response.end() 被调用前，连接就断开了。此时会触发这个事件。</li>
+<li>finish：响应header、body都已经发送出去（交给操作系统，排队等候传输），但客户端是否实际收到数据为止。（这个事件后，res 上就不会再有其他事件触发）</li>
+</ul>
+<h3> 4.9 其他不常用属性/方法</h3>
+<ul>
+<li>response.finished：一开始是false，响应结束后，设置为true。</li>
+<li>response.sendDate：默认是true。是否自动设置Date头部。（按HTTP协议是必须要的，除非是调试用，不然不要设置为false）</li>
+<li>response.headersSent：只读属性。响应头部是否已发送。</li>
+<li>response.writeContinue()：发送 HTTP/1.1 100 Continue 消息给客户端，提示说服务端愿意接受客户端的请求，请继续发送请求正文（body)。（TODO 做个demo啥的是大大的好）</li>
+</ul>
+<h2> 5.网络服务 http req</h2>
+<h3> 5.1 概览</h3>
+<p>本文的重点会放在<code>req</code>这个对象上。前面已经提到，它其实是http.IncomingMessage实例，在服务端、客户端作用略微有差异</p>
+<ul>
+<li>服务端处：获取请求方的相关信息，如request header等。</li>
+<li>客户端处：获取响应方返回的相关信息，如statusCode等。</li>
+</ul>
+<p>服务端例子：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>客户端例子</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 5.2 属性/方法/事件 分类</h3>
+<p>http.IncomingMessage的属性/方法/事件 不是特别多，按照是否客户端/服务端 特有的，下面进行简单归类。可以看到</p>
+<ul>
+<li>服务端处特有：url</li>
+<li>客户端处特有：statusCode、statusMessage</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">类型</th>
+<th style="text-align:center">名称</th>
+<th style="text-align:center">服务端</th>
+<th style="text-align:center">客户端</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">事件</td>
+<td style="text-align:center">aborted</td>
+<td style="text-align:center">✓</td>
+<td style="text-align:center">✓</td>
+</tr>
+<tr>
+<td style="text-align:left">事件</td>
+<td style="text-align:center">close</td>
+<td style="text-align:center">✓</td>
+<td style="text-align:center">✓</td>
+</tr>
+<tr>
+<td style="text-align:left">属性</td>
+<td style="text-align:center">headers</td>
+<td style="text-align:center">✓</td>
+<td style="text-align:center">✓</td>
+</tr>
+<tr>
+<td style="text-align:left">属性</td>
+<td style="text-align:center">rawHeaders</td>
+<td style="text-align:center">✓</td>
+<td style="text-align:center">✓</td>
+</tr>
+<tr>
+<td style="text-align:left">属性</td>
+<td style="text-align:center">statusCode</td>
+<td style="text-align:center">✕</td>
+<td style="text-align:center">✓</td>
+</tr>
+<tr>
+<td style="text-align:left">属性</td>
+<td style="text-align:center">statusMessage</td>
+<td style="text-align:center">✕</td>
+<td style="text-align:center">✓</td>
+</tr>
+<tr>
+<td style="text-align:left">属性</td>
+<td style="text-align:center">httpVersion</td>
+<td style="text-align:center">✓</td>
+<td style="text-align:center">✓</td>
+</tr>
+<tr>
+<td style="text-align:left">属性</td>
+<td style="text-align:center">url</td>
+<td style="text-align:center">✓</td>
+<td style="text-align:center">✕</td>
+</tr>
+<tr>
+<td style="text-align:left">属性</td>
+<td style="text-align:center">socket</td>
+<td style="text-align:center">✓</td>
+<td style="text-align:center">✓</td>
+</tr>
+<tr>
+<td style="text-align:left">方法</td>
+<td style="text-align:center">.destroy()</td>
+<td style="text-align:center">✓</td>
+<td style="text-align:center">✓</td>
+</tr>
+<tr>
+<td style="text-align:left">方法</td>
+<td style="text-align:center">.setTimeout()</td>
+<td style="text-align:center">✓</td>
+<td style="text-align:center">✓</td>
+</tr>
+</tbody>
+</table>
+<h3> 5.3 服务端的例子</h3>
+<h4> 5.3.1 例子一：获取httpVersion/method/url</h4>
+<p>下面是一个典型的HTTP请求报文，里面最重要的内容包括：HTTP版本、请求方法、请求地址、请求头部。</p>
+<div class="language-http line-numbers-mode" data-ext="http"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>那么，如何获取上面提到的信息呢？很简单，直接上代码</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>效果如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 5.3.2 例子二：获取get请求参数</h4>
+<p>服务端代码如下：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>访问地址 <a href="http://127.0.0.1:3000/hello?nick=chyingp&amp;hello=world" target="_blank" rel="noopener noreferrer">http://127.0.0.1:3000/hello?nick=chyingp&amp;hello=world</a></p>
+<p>服务端输出如下</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4> 5.3.3  例子三：获取post请求参数</h4>
+<p>服务端代码如下</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>通过curl构造post请求：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>服务端打印如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>备注：post请求中，不同的<code>Content-type</code>，post body有不小差异，感兴趣的同学可以研究下。</p>
+<p>本例中的post请求，HTTP报文大概如下</p>
+<div class="language-http line-numbers-mode" data-ext="http"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 6.网络服务 https</h2>
+<h3> 6.1 模块概览</h3>
+<p>这个模块的重要性，基本不用强调了。在网络安全问题日益严峻的今天，网站采用HTTPS是个必然的趋势。</p>
+<p>在nodejs中，提供了 https 这个模块来完成 HTTPS 相关功能。从官方文档来看，跟 http 模块用法非常相似。</p>
+<p>本文主要包含两部分：</p>
+<ol>
+<li>通过客户端、服务端的例子，对https模块进行入门讲解。</li>
+<li>如何访问安全证书不受信任的网站。（以 12306 为例子）</li>
+</ol>
+<p>篇幅所限，本文无法对 HTTPS协议 及 相关技术体系 做过多讲解，有问题欢迎留言交流。</p>
+<h3> 6.2 客户端例子</h3>
+<p>跟http模块的用法非常像，只不过请求的地址是https协议的而已，代码如下：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 6.3 服务端例子</h3>
+<p>对外提供HTTPS服务，需要有HTTPS证书。如果你已经有了HTTPS证书，那么可以跳过证书生成的环节。如果没有，可以参考如下步骤</p>
+<h4> 6.3.1 生成证书</h4>
+<p><strong>1.创建个目录存放证书。</strong></p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>2.生成私钥。</strong></p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p><strong>3.生成证书签名请求（csr是 Certificate Signing Request的意思）。</strong></p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>4.生成证书。</strong></p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 6.3.2 HTTPS服务端</h4>
+<p>代码如下：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>由于我并没有 <a href="http://www.chyingp.com" target="_blank" rel="noopener noreferrer">www.chyingp.com</a> 这个域名，于是先配置本地host</p>
+<div class="language-text line-numbers-mode" data-ext="text"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>启动服务，并在浏览器里访问 <a href="http://www.chyingp.com:3000/" target="_blank" rel="noopener noreferrer">http://www.chyingp.com:3000</a>。注意，浏览器会提示你证书不可靠，点击 信任并继续访问 就行了。</p>
+<h2> 7.URL 接口(代替内置模块url使用)</h2>
+<blockquote>
+<p>nodejs内置模块<code>url</code>有些方法要被废弃，我们使用<code>URL类</code>代替</p>
+</blockquote>
+<p>浏览器原生提供<code>URL()</code>接口，它是一个构造函数，用来构造、解析和编码 URL。一般情况下，通过<code>window.URL</code>可以拿到这个构造函数。</p>
+<h3> 7.1 对比<code>url模块</code>和URL类</h3>
+<table>
+<thead>
+<tr>
+<th>属性</th>
+<th>url模块</th>
+<th>URL类</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>protocol</td>
+<td><code>✅</code></td>
+<td><code>✅</code></td>
+</tr>
+<tr>
+<td>host</td>
+<td><code>✅</code></td>
+<td><code>✅</code></td>
+</tr>
+<tr>
+<td>port</td>
+<td><code>✅</code></td>
+<td><code>✅</code></td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><code>✅</code></td>
+<td><code>✅</code></td>
+</tr>
+<tr>
+<td>search</td>
+<td><code>✅</code></td>
+<td><code>✅</code></td>
+</tr>
+<tr>
+<td>query</td>
+<td><code>✅</code></td>
+<td><code>-</code></td>
+</tr>
+<tr>
+<td>path</td>
+<td><code>✅</code></td>
+<td><code>-</code></td>
+</tr>
+<tr>
+<td>pathname</td>
+<td><code>✅</code></td>
+<td><code>✅</code></td>
+</tr>
+<tr>
+<td>href</td>
+<td><code>✅</code></td>
+<td><code>✅</code></td>
+</tr>
+<tr>
+<td>hash</td>
+<td><code>✅</code></td>
+<td><code>✅</code></td>
+</tr>
+<tr>
+<td>origin</td>
+<td>-</td>
+<td><code>✅</code></td>
+</tr>
+</tbody>
+</table>
+<p>可以看出来，只有三个字段不同，分别是<code>query</code>,<code>path</code>,<code>origin</code></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 7.2 构造函数</h3>
+<p><code>URL()</code>作为构造函数，可以生成 URL 实例。它接受一个表示 URL 的字符串作为参数。如果参数不是合法的 URL，会报错。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面示例生成了一个 URL 实例，用来代表指定的网址。</p>
+<p>除了字符串，<code>URL()</code>的参数也可以是另一个 URL 实例。这时，<code>URL()</code>会自动读取该实例的<code>href</code>属性，作为实际参数。</p>
+<p>如果 URL 字符串是一个相对路径，那么需要表示绝对路径的第二个参数，作为计算基准。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，返回的 URL 实例的路径都是在第二个参数的基础上，切换到第一个参数得到的。最后一个例子里面，第一个参数是<code>..</code>，表示上层路径。</p>
+<h3> 7.3 实例属性</h3>
+<p>URL 实例的属性与<code>Location</code>对象的属性基本一致，返回当前 URL 的信息。</p>
+<ul>
+<li>URL.href：返回整个 URL</li>
+<li>URL.protocol：返回协议，以冒号<code>:</code>结尾</li>
+<li>URL.hostname：返回域名</li>
+<li>URL.host：返回域名与端口，包含<code>:</code>号，默认的80和443端口会省略</li>
+<li>URL.port：返回端口</li>
+<li>URL.origin：返回协议、域名和端口</li>
+<li>URL.pathname：返回路径，以斜杠<code>/</code>开头</li>
+<li>URL.search：返回查询字符串，以问号<code>?</code>开头</li>
+<li>URL.searchParams：返回一个<code>URLSearchParams</code>实例，该属性是<code>Location</code>对象没有的</li>
+<li>URL.hash：返回片段识别符，以井号<code>#</code>开头</li>
+<li>URL.password：返回域名前面的密码</li>
+<li>URL.username：返回域名前面的用户名</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>这些属性里面，只有<code>origin</code>属性是只读的，其他属性都可写，并且会立即生效。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，改变 URL 实例的<code>pathname</code>属性和<code>hash</code>属性，都会实时反映在 URL 实例当中。</p>
+<h2> 8.URLSearchParams 对象(代替内置模块querystring使用)</h2>
+<blockquote>
+<ol>
+<li>
+<p>nodejs内置模块<code>querystring</code>有些方法要被废弃，我们使用<code>URLSearchParams API </code>构造代替</p>
+</li>
+<li>
+<p>如果你的nodejs版本大于18，可以使用<code>const querystring= require('node:querystring')</code>
+``querystring<code>比</code>URLSearchParams<code>性能更高，但不是 标准化的 API。使用</code>URLSearchParams`当性能不重要或 当需要与浏览器代码兼容时。</p>
+</li>
+<li>
+<p>还可以安装<code>qs</code>模块，使用方式和<code>querystring</code>一样</p>
+</li>
+</ol>
+</blockquote>
+<h3> 8.1 概述</h3>
+<p><code>URLSearchParams</code>对象是浏览器的原生对象，用来构造、解析和处理 URL 的查询字符串（即 URL 问号后面的部分）。</p>
+<p>它本身也是一个构造函数，可以生成实例。参数可以为查询字符串，起首的问号<code>?</code>有没有都行，也可以是对应查询字符串的数组或对象。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>URLSearchParams</code>会对查询字符串自动编码。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，<code>foo</code>的值是汉字，<code>URLSearchParams</code>对其自动进行 URL 编码。</p>
+<p>浏览器向服务器发送表单数据时，可以直接使用<code>URLSearchParams</code>实例作为表单数据。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，<code>fetch</code>命令向服务器发送命令时，可以直接使用<code>URLSearchParams</code>实例。</p>
+<p><code>URLSearchParams</code>可以与<code>URL()</code>接口结合使用。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，URL 实例的<code>searchParams</code>属性就是一个<code>URLSearchParams</code>实例，所以可以使用<code>URLSearchParams</code>接口的<code>get</code>方法。</p>
+<p><code>URLSearchParams</code>实例有遍历器接口，可以用<code>for...of</code>循环遍历。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>URLSearchParams</code>没有实例属性，只有实例方法。</p>
+<h3> 8.2 URLSearchParams.toString()</h3>
+<p><code>toString</code>方法返回实例的字符串形式。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>那么需要字符串的场合，会自动调用<code>toString</code>方法。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，<code>location.href</code>赋值时，可以直接使用<code>params</code>对象。这时就会自动调用<code>toString</code>方法。</p>
+<h3> 8.3 URLSearchParams.has()</h3>
+<p><code>has()</code>方法返回一个布尔值，表示查询字符串是否包含指定的键名。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 8.4 URLSearchParams.get()，URLSearchParams.getAll()</h3>
+<p><code>get()</code>方法用来读取查询字符串里面的指定键。它接受键名作为参数。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>两个地方需要注意。第一，它返回的是字符串，如果原始值是数值，需要转一下类型；第二，如果指定的键名不存在，返回值是<code>null</code>。</p>
+<p>如果有多个的同名键，<code>get</code>返回位置最前面的那个键值。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，查询字符串有三个<code>foo</code>键，<code>get</code>方法返回最前面的键值<code>3</code>。</p>
+<p><code>getAll()</code>方法返回一个数组，成员是指定键的所有键值。它接受键名作为参数。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>上面代码中，查询字符串有两个<code>foo</code>键，<code>getAll</code>返回的数组就有两个成员。</p>
+<h3> 8.5 URLSearchParams.keys()，URLSearchParams.values()，URLSearchParams.entries()</h3>
+<p>这三个方法都返回一个遍历器对象，供<code>for...of</code>循环遍历。它们的区别在于，<code>keys</code>方法返回的是键名的遍历器，<code>values</code>方法返回的是键值的遍历器，<code>entries</code>返回的是键值对的遍历器。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果直接对<code>URLSearchParams</code>进行遍历，其实内部调用的就是<code>entries</code>接口。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 9.qs模块</h2>
+<p>qs是一个npm仓库所管理的包,可通过npm install qs命令进行安装.</p>
+<ol>
+<li>qs.parse()将URL解析成对象的形式</li>
+<li>qs.stringify()将对象 序列化成URL的形式，以&amp;进行拼接</li>
+</ol>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>06 【nodejs内置模块（中）】</title>
+      <link>https://blog.dselegent.cf/back_end/nodeJs/06.html</link>
+      <guid>https://blog.dselegent.cf/back_end/nodeJs/06.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">06 【nodejs内置模块（中）】</source>
+      <description>06 【nodejs内置模块（中）】 1.路劲处理模块 path 1.1 模块概览 在nodejs中，path是个使用频率很高，但却让人又爱又恨的模块。部分因为文档说的不够清晰，部分因为接口的平台差异性。 将path的接口按照用途归类，仔细琢磨琢磨，也就没那么费解了。 1.2 获取路径/文件名/扩展名 获取路径：path.dirname(filepath) 获取文件名：path.basename(filepath) 获取扩展名：path.extname(filepath)</description>
+      <content:encoded><![CDATA[<h1> 06 【nodejs内置模块（中）】</h1>
+<h2> 1.路劲处理模块 path</h2>
+<h3> 1.1 模块概览</h3>
+<p>在nodejs中，path是个使用频率很高，但却让人又爱又恨的模块。部分因为文档说的不够清晰，部分因为接口的平台差异性。</p>
+<p>将path的接口按照用途归类，仔细琢磨琢磨，也就没那么费解了。</p>
+<h3> 1.2 获取路径/文件名/扩展名</h3>
+<ul>
+<li>获取路径：path.dirname(filepath)</li>
+<li>获取文件名：path.basename(filepath)</li>
+<li>获取扩展名：path.extname(filepath)</li>
+</ul>
+<h4> 1.2.1 获取所在路径</h4>
+<p>例子如下：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 1.2.2 获取文件名</h4>
+<p>严格意义上来说，path.basename(filepath) 只是输出路径的最后一部分，并不会判断是否文件名。</p>
+<p>但大部分时候，我们可以用它来作为简易的“获取文件名“的方法。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果只想获取文件名，单不包括文件扩展呢？可以用上第二个参数。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><h4> 1.2.3 获取文件扩展名</h4>
+<p>简单的例子如下：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>更详细的规则是如下：（假设 path.basename(filepath) === B ）</p>
+<ul>
+<li>从B的最后一个<code>.</code>开始截取，直到最后一个字符。</li>
+<li>如果B中不存在<code>.</code>，或者B的第一个字符就是<code>.</code>，那么返回空字符串。</li>
+</ul>
+<p>直接看<a href="https://nodejs.org/api/path.html#path_path_extname_path" target="_blank" rel="noopener noreferrer">官方文档</a>的例子</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 1.3 路径组合</h3>
+<ul>
+<li>path.join([...paths])</li>
+<li>path.resolve([...paths])</li>
+</ul>
+<h4> 1.3.1 path.resolve() 生成完成的绝对路径</h4>
+<p>语法格式：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>解释：</p>
+<ul>
+<li>将路径或路径片段的序列解析为绝对路径。</li>
+<li>返回的路径是<strong>从右往左</strong>处理，后面的每个 myPath 被依次解析，直到构造出一个完整的绝对路径。</li>
+</ul>
+<blockquote>
+<p>你可以想象现在你在shell下面，从左到右运行一遍<code>cd path</code>命令，最终获取的绝对路径/文件名，就是这个接口所返回的结果了。</p>
+</blockquote>
+<p>代码举例：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 1.3.2 path.join() 将多个路径进行拼接</h4>
+<p>如果是我们手动拼接路径，容易出错。这个时候，可以利用 path.join() 方法将路径进行拼接。</p>
+<p>语法格式：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>解释：使用平台特定的分隔符作为定界符将所有给定的 path 片段连接在一起，然后规范化生成的路径。</p>
+<p>代码举例：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4> 1.3.3 path.resolve 和 path.join 区别</h4>
+<p>path.resolve 和 path.join 都是属于 path 核心模块下的方法，用来拼接路径。</p>
+<p>都可以拼接成一个完整路径.</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果 dirname 是以 ./ 、../、不加 / 开头的话，那么 resolve 会找到磁盘下的根目录</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>如果 basename 是以 / 开头的，那么 resolve 就会直接返回 basename</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 1.4 几个常见路径</h3>
+<ul>
+<li><code>__dirname</code>：这是一个常量，表示：当前执行文件所在<strong>完整目录</strong>。</li>
+<li><code>__filename</code>：这是一个常量。表示：当前执行文件的<strong>完整目录 + 文件名</strong>。</li>
+<li><code>process.cwd</code>：获取当前执行 Node命令 时的目录名。</li>
+</ul>
+<p>代码举例：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>运行结果：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 2.本地文件操作模块 fs</h2>
+<blockquote>
+<h3> Node.js 中的同步和异步的区别</h3>
+<p>fs模块对文件的几乎所有操作都有同步和异步两种形式。例如：readFile() 和 readFileSync()。</p>
+<p>区别：</p>
+<ul>
+<li>同步调用会阻塞代码的执行，异步则不会。</li>
+<li>异步调用会将 读取任务 下达到任务队列，直到任务执行完成才会回调。</li>
+<li>异常处理方面：同步必须使用 try catch 方式，异步可以通过回调函数的第一个参数。【重要】</li>
+</ul>
+</blockquote>
+<h3> 2.1 文件读取</h3>
+<p><strong>同步读取</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>异步读取</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出如下</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><blockquote>
+<p><strong>fs/promises 从 Node.js 14 开始可用</strong>
+从 Node.js 14 开始，fs 模块提供了两种使用基于 promises 的文件系统的方法。这些 promises 可以通过 <code>require('fs').promises</code> 或 <code>require('fs/promises') </code>获得。</p>
+</blockquote>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.2 文件写入</h3>
+<p>备注：以下代码，如果文件不存在，则创建文件；如果文件存在，则覆盖文件内容；</p>
+<p><strong>异步写入</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>同步写入</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>promises</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.3 文件是否存在</h3>
+<p><code>fs.exists()</code>已经是<code>deprecated</code>状态，现在可以通过下面代码判断文件是否存在。</p>
+<p><strong>异步本</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>fs.access()</code>除了判断文件是否存在（默认模式），还可以用来判断文件的权限。</p>
+<p>备忘：<code>fs.constants.F_OK</code>等常量无法获取（node v6.1，mac 10.11.4下，<code>fs.constants</code>是<code>undefined</code>）</p>
+<p><strong>同步</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>promises</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.4 删除文件</h3>
+<p><strong>异步版本</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>同步版本</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>promises</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.5 创建目录</h3>
+<p><strong>异步版本</strong>（如果目录已存在，会报错）</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>同步版本</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>promises</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.6 遍历目录</h3>
+<p>同步版本，注意：<code>fs.readdirSync()</code>只会读一层，所以需要判断文件类型是否目录，如果是，则进行递归遍历。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.7 读取目录</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.8 删除目录</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.9 删除整个目录</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.10 文件重命名</h3>
+<p><strong>异步版本</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>同步版本</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>promises</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.11 获取文件状态</h3>
+<p>1.异步：fs.stat(path,callback):
+path是一个表示路径的字符串,callback接收两个参数(err,stats),其中stats就是fs.stats的一个实例；</p>
+<p>2.同步：fs.statSync(path)
+只接收一个path变量，fs.statSync(path)其实是一个fs.stats的一个实例；</p>
+<p>方法</p>
+<ul>
+<li>stats.isFile() -- 是否文件</li>
+<li>stats.isDirectory() -- 是否目录</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>输出：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.12 追加文件内容</h3>
+<blockquote>
+<p>fs.appendFile(file, data[, options], callback)</p>
+</blockquote>
+<ul>
+<li>file：可以是文件路径，也可以是文件句柄。（还可以是buffer？）</li>
+<li>data：要追加的内容。string或者buffer。</li>
+<li>options
+<ul>
+<li>encoding：编码，默认是<code>utf8</code></li>
+<li>mode：默认是<code>0o666</code></li>
+<li>flag：默认是<code>a</code></li>
+</ul>
+</li>
+</ul>
+<p>注意：如果<code>file</code>是文件句柄，那么</p>
+<ul>
+<li>开始追加数据前，file需要已经打开。</li>
+<li>file需要手动关闭。</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 3.事件机制模块 events</h2>
+<p>Node.js 有多个内置的事件，我们可以通过引入 events 模块，并通过实例化 EventEmitter 类来绑定和监听事件，如下实例：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>以下程序绑定事件处理程序：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>我们可以通过程序触发事件：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p><code>EventEmitter </code>的每个事件由一个事件名和若干个参数组成，事件名是一个字符串，通常表达一定的语义。对于每个事件，<code>EventEmitter </code>支持 若干个事件监听器。</p>
+<p>当事件触发时，注册到这个事件的事件监听器被依次调用，事件参数作为回调函数参数传递。</p>
+<p>让我们以下面的例子解释这个过程：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>执行以上代码，运行的结果如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>以上例子中，event 为事件 someEvent 注册了两个事件监听器，然后触发了 someEvent 事件。</p>
+<p>运行结果中可以看到两个事件监听器回调函数被先后调用。 这就是<code>EventEmitter</code>最简单的用法。</p>
+<p><code>EventEmitter </code>提供了多个属性，如 <strong>on</strong> 和 <strong>emit</strong>。<strong>on</strong> 函数用于绑定事件函数，<strong>emit</strong> 属性用于触发一个事件</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>07 【nodejs内置模块（下）】</title>
+      <link>https://blog.dselegent.cf/back_end/nodeJs/07.html</link>
+      <guid>https://blog.dselegent.cf/back_end/nodeJs/07.html</guid>
+      <source url="https://blog.dselegent.cf/rss.xml">07 【nodejs内置模块（下）】</source>
+      <description>07 【nodejs内置模块（下）】 1.stream 模块 stream是Node.js提供的又一个仅在服务区端可用的模块，目的是支持“流”这种数据结构。 什么是流？流是一种抽象的数据结构。想象水流，当在水管中流动时，就可以从某个地方（例如自来水厂）源源不断地到达另一个地方（比如你家的洗手池）。我们也可以把数据看成是数据流，比如你敲键盘的时候，就可以把每个字符依次连起来，看成字符流。这个流是从键盘输入到应用程序，实际上它还对应着一个名字：标准输入流（stdin）。 如果应用程序把字符一个一个输出到显示器上，这也可以看成是一个流，这个流也有名字：标准输出流（stdout）。流的特点是数据是有序的，而且必须依次读取，或者依次写入，不能像Array那样随机定位。</description>
+      <content:encoded><![CDATA[<h1> 07 【nodejs内置模块（下）】</h1>
+<h2> 1.stream 模块</h2>
+<p><code>stream</code>是Node.js提供的又一个仅在服务区端可用的模块，目的是支持“流”这种数据结构。</p>
+<p>什么是流？流是一种抽象的数据结构。想象水流，当在水管中流动时，就可以从某个地方（例如自来水厂）源源不断地到达另一个地方（比如你家的洗手池）。我们也可以把数据看成是数据流，比如你敲键盘的时候，就可以把每个字符依次连起来，看成字符流。这个流是从键盘输入到应用程序，实际上它还对应着一个名字：标准输入流（stdin）。</p>
+<p>如果应用程序把字符一个一个输出到显示器上，这也可以看成是一个流，这个流也有名字：标准输出流（stdout）。流的特点是数据是有序的，而且必须依次读取，或者依次写入，不能像Array那样随机定位。</p>
+<p>有些流用来读取数据，比如从文件读取数据时，可以打开一个文件流，然后从文件流中不断地读取数据。有些流用来写入数据，比如向文件写入数据时，只需要把数据不断地往文件流中写进去就可以了。</p>
+<p>在Node.js中，流也是一个对象，我们只需要响应流的事件就可以了：<code>data</code>事件表示流的数据已经可以读取了，<code>end</code>事件表示这个流已经到末尾了，没有数据可以读取了，<code>error</code>事件表示出错了。</p>
+<h3> 1.1 读取流</h3>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>要注意，<code>data</code>事件可能会有多次，每次传递的<code>chunk</code>是流的一部分数据。</p>
+<p><strong>读取视频</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><figure><img src="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eigfl898j31750iztjs.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3> 1.2 写入流</h3>
+<p>要以流的形式写入文件，只需要不断调用<code>write()</code>方法，最后以<code>end()</code>结束：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><code>pipe</code> 就像可以把两个水管串成一个更长的水管一样，两个流也可以串起来。一个<code>Readable</code>流和一个<code>Writable</code>流串起来后，所有的数据自动从<code>Readable</code>流进入<code>Writable</code>流，这种操作叫<code>pipe</code>。</p>
+<p>在Node.js中，<code>Readable</code>流有一个<code>pipe()</code>方法，就是用来干这件事的。</p>
+<p>让我们用<code>pipe()</code>把一个文件流和另一个文件流串起来，这样源文件的所有数据就自动写入到目标文件里了，所以，这实际上是一个复制文件的程序：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>pipe原理</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 2.资源压缩模块 zib</h2>
+<h3> 2.1 概览</h3>
+<p>做过web性能优化的同学，对性能优化大杀器<strong>gzip</strong>应该不陌生。浏览器向服务器发起资源请求，比如下载一个js文件，服务器先对资源进行压缩，再返回给浏览器，以此节省流量，加快访问速度。</p>
+<p>浏览器通过HTTP请求头部里加上<strong>Accept-Encoding</strong>，告诉服务器，“你可以用gzip，或者defalte算法压缩资源”。</p>
+<blockquote>
+<p>Accept-Encoding:gzip, deflate</p>
+</blockquote>
+<p>那么，在nodejs里，是如何对资源进行压缩的呢？答案就是<strong>Zlib</strong>模块。=</p>
+<h3> 2.2 压缩的例子</h3>
+<p>非常简单的几行代码，就完成了本地文件的gzip压缩。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.3 解压的例子</h3>
+<p>同样非常简单，就是个反向操作。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.4 服务端gzip压缩</h3>
+<p>首先判断 是否包含 <strong>accept-encoding</strong> 首部，且值为<strong>gzip</strong>。</p>
+<ul>
+<li>否：返回未压缩的文件。</li>
+<li>是：返回gzip压缩后的文件。</li>
+</ul>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>将js大文件返回</strong></p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 2.5 服务端字符串gzip压缩</h3>
+<p>代码跟前面例子大同小异。这里采用了 <strong>zlib.gzipSync(str)</strong> 对字符串进行gzip压缩。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2> 3.数据加密模块 crypto</h2>
+<p>crypto模块的目的是为了提供通用的加密和哈希算法。用纯JavaScript代码实现这些功能不是不可能，但速度会非常慢。Nodejs用C/C++实现这些算法后，通过cypto这个模块暴露为JavaScript接口，这样用起来方便，运行速度也快。</p>
+<h3> 3.1 hash例子</h3>
+<p>hash.digest([encoding])：计算摘要。encoding可以是<code>hex</code>、<code>latin1</code>或者<code>base64</code>。如果声明了encoding，那么返回字符串。否则，返回Buffer实例。注意，调用hash.digest()后，hash对象就作废了，再次调用就会出错。</p>
+<p>hash.update(data[, input_encoding])：input_encoding可以是<code>utf8</code>、<code>ascii</code>或者<code>latin1</code>。如果data是字符串，且没有指定 input_encoding，则默认是<code>utf8</code>。注意，hash.update()方法可以调用多次。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>也可以这样：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>hash.digest()后，再次调用digest()或者update()</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.2 HMAC例子</h3>
+<p>HMAC的全称是Hash-based Message Authentication Code，也即在hash的加盐运算。</p>
+<p>具体到使用的话，跟hash模块差不多，选定hash算法，指定“盐”即可。</p>
+<p>例子1：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>例子2：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.3 MD5例子</h3>
+<p>MD5（Message-Digest Algorithm）是计算机安全领域广泛使用的散列函数（又称哈希算法、摘要算法），主要用来确保消息的完整和一致性。常见的应用场景有密码保护、下载文件校验等。</p>
+<p><strong>特点</strong></p>
+<ol>
+<li>运算速度快：对<code>jquery.js</code>求md5值，57254个字符，耗时1.907ms</li>
+<li>输出长度固定：输入长度不固定，输出长度固定（128位）。</li>
+<li>运算不可逆：已知运算结果的情况下，无法通过通过逆运算得到原始字符串。</li>
+<li>高度离散：输入的微小变化，可导致运算结果差异巨大。</li>
+<li>弱碰撞性：不同输入的散列值可能相同。</li>
+</ol>
+<p><strong>应用场景</strong></p>
+<ol>
+<li>文件完整性校验：比如从网上下载一个软件，一般网站都会将软件的md5值附在网页上，用户下载完软件后，可对下载到本地的软件进行md5运算，然后跟网站上的md5值进行对比，确保下载的软件是完整的（或正确的）</li>
+<li>密码保护：将md5后的密码保存到数据库，而不是保存明文密码，避免拖库等事件发生后，明文密码外泄。</li>
+<li>防篡改：比如数字证书的防篡改，就用到了摘要算法。（当然还要结合数字签名等手段）</li>
+</ol>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3> 3.4 例子：密码保护</h3>
+<p>前面提到，将明文密码保存到数据库是很不安全的，最不济也要进行md5后进行保存。比如用户密码是<code>123456</code>，md5运行后，得到<code>输出：e10adc3949ba59abbe56e057f20f883e</code>。</p>
+<p>这样至少有两个好处：</p>
+<ol>
+<li>防内部攻击：网站主人也不知道用户的明文密码，避免网站主人拿着用户明文密码干坏事。</li>
+<li>防外部攻击：如网站被黑客入侵，黑客也只能拿到md5后的密码，而不是用户的明文密码。</li>
+</ol>
+<p>示例代码如下：</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>单纯对密码进行md5不安全</strong></p>
+<p>前面提到，通过对用户密码进行md5运算来提高安全性。但实际上，这样的安全性是很差的，为什么呢？</p>
+<p>稍微修改下上面的例子，可能你就明白了。相同的明文密码，md5值也是相同的。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>也就是说，当攻击者知道算法是md5，且数据库里存储的密码值为<code>e10adc3949ba59abbe56e057f20f883e</code>时，理论上可以可以猜到，用户的明文密码就是<code>123456</code>。</p>
+<p>事实上，彩虹表就是这么进行暴力破解的：事先将常见明文密码的md5值运算好存起来，然后跟网站数据库里存储的密码进行匹配，就能够快速找到用户的明文密码。（这里不探究具体细节）</p>
+<p>那么，有什么办法可以进一步提升安全性呢？答案是：密码加盐。</p>
+<p><strong>密码加盐</strong></p>
+<p>“加盐”这个词看上去很玄乎，其实原理很简单，就是在密码特定位置插入特定字符串后，再对修改后的字符串进行md5运算。</p>
+<p>例子如下。同样的密码，当“盐”值不一样时，md5值的差异非常大。通过密码加盐，可以防止最初级的暴力破解，如果攻击者事先不知道”盐“值，破解的难度就会非常大。</p>
+<div class="language-javascript line-numbers-mode" data-ext="js"><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+      <enclosure url="https://tva1.sinaimg.cn/large/0074UQWJgy1h3eigfl898j31750iztjs.jpg" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
